@@ -1,0 +1,45 @@
+PODS:
+  - FLAnimatedImage (1.0.12)
+  - NYSegmentedControl (1.1.0)
+  - NYTPhotoViewer (2.0.0):
+    - NYTPhotoViewer/AnimatedGifSupport (= 2.0.0)
+    - NYTPhotoViewer/Core (= 2.0.0)
+  - NYTPhotoViewer/AnimatedGifSupport (2.0.0):
+    - FLAnimatedImage (~> 1.0.12)
+    - NYTPhotoViewer/Core
+  - NYTPhotoViewer/Core (2.0.0)
+  - SHPKeyboardAwareness (3.1.0)
+
+DEPENDENCIES:
+  - NYSegmentedControl (from `https://github.com/shapehq/NYSegmentedControl.git`)
+  - NYTPhotoViewer (from `https://github.com/NYTimes/NYTPhotoViewer.git`)
+  - SHPKeyboardAwareness (from `https://github.com/shapehq/SHPKeyboardAwareness.git`)
+
+EXTERNAL SOURCES:
+  NYSegmentedControl:
+    :git: https://github.com/shapehq/NYSegmentedControl.git
+  NYTPhotoViewer:
+    :git: https://github.com/NYTimes/NYTPhotoViewer.git
+  SHPKeyboardAwareness:
+    :git: https://github.com/shapehq/SHPKeyboardAwareness.git
+
+CHECKOUT OPTIONS:
+  NYSegmentedControl:
+    :commit: 2e6c37cf0d858e03506e7f18d6e4ab220ed9f384
+    :git: https://github.com/shapehq/NYSegmentedControl.git
+  NYTPhotoViewer:
+    :commit: 533a1fa40d0d4d518df737b76318715408050b74
+    :git: https://github.com/NYTimes/NYTPhotoViewer.git
+  SHPKeyboardAwareness:
+    :commit: 8cca884fc707e252e63c8ad9c687dd7cbdce6471
+    :git: https://github.com/shapehq/SHPKeyboardAwareness.git
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  NYSegmentedControl: a92726c9e459919549f94328389ffcdaecefebfe
+  NYTPhotoViewer: 34b8bd6bcc297466adec1668f9a01249d73c90e6
+  SHPKeyboardAwareness: 0d7cfe8cac9365a26c720af4a346b1157dc25a16
+
+PODFILE CHECKSUM: 46627e4159131ece59d0380a9ebf27f0893fef44
+
+COCOAPODS: 1.4.0

@@ -1,0 +1,1627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034185167C322BD60754C5BC8DC34595 /* NYSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = 756803CC6AE773122C7B046A5843A40B /* NYSegment.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		046BFFA30C0543368B838A5FEB49D9F1 /* SHPKeyboardAwareness-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CBABD6C30AC15E72BC67483DCA19FC /* SHPKeyboardAwareness-dummy.m */; };
+		05F06B12AAC5CD0C807ECE5B3B3D2BAC /* FLAnimatedImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D7FD60D4F01D4C2A1C15F0696F2CF3 /* FLAnimatedImage-dummy.m */; };
+		064E9A3A6D936861F835A39CCE47B1F3 /* NYTPhotoViewerCloseButtonXLandscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B02A9EA1C70D1E093084A896A253A5B /* NYTPhotoViewerCloseButtonXLandscape@2x.png */; };
+		09BF4BC22F23CD9986D5D24AAF38B838 /* NYTPhotoViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA2433D601BAA93E93A1D1B1B97F153C /* NYTPhotoViewer-dummy.m */; };
+		0A3CC033F5955760C868E49D6D0201BB /* NYSegmentTextRenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A87B626CD91BB7ECBEEB2182E8182D /* NYSegmentTextRenderView.m */; };
+		0A91AB2004A982DA48F13DEBCDF18A65 /* NYTPhotoViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = FEA4D880F01A1242135242C82F9023C6 /* NYTPhotoViewer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0D8077B589BF5EF59BBC872F3CF31C4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CB1FE3AAA6DC5205CCBED5A1E9C70B /* UIKit.framework */; };
+		0DAF1122E5F14FE2758F0F9484C2D841 /* NYSegmentTextRenderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C2C3C22306459EB6DB8E297F17848B /* NYSegmentTextRenderView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0DF94DA655175A435E6FE641276CE2A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E378F513CCC6FA559B7FC63BBEC2324C /* Foundation.framework */; };
+		13A41D96294CC2E49ADC592C2D8D5869 /* SHPKeyboardAwarenessConstraintClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D3EED2E2876051C54DF31541B7028E57 /* SHPKeyboardAwarenessConstraintClient.m */; };
+		16FB3516BB84A817514AA081F68BF906 /* Pods-CoolStuffTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12159FDFC7774D276D60C4A200E8838B /* Pods-CoolStuffTests-dummy.m */; };
+		177EA7481528AFB4F458FC44038BA9D3 /* NYTPhotoTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8778CC3E56BFF924604456C020D20E10 /* NYTPhotoTransitionController.m */; };
+		1E890935461208AB7CAFF617DC290958 /* NYTPhotoViewerCloseButtonX@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1305325C754037DC5633171AAF5CDDA3 /* NYTPhotoViewerCloseButtonX@3x.png */; };
+		1EB23C3B6B1C763592CE041B2C845A65 /* NYTPhotoCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6B41A1FDE423876764F5A5DEFFC3C3 /* NYTPhotoCaptionView.m */; };
+		2815E4F0F36DF230EA4D9D1B6C1A6456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449153C396611228AE270C80978317D5 /* Foundation.framework */; };
+		2B5FEA8377B267CE91653EF5FBB856FF /* FLAnimatedImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BCEBFA8574F1E0552520075838A4F81 /* FLAnimatedImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2CE67D6F57FFBCD493F4CF92C7FE6678 /* NSBundle+NYTPhotoViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACF440F19FFB9DABD818A0E7D30D8BB /* NSBundle+NYTPhotoViewer.m */; };
+		2E24CCCCED0A12BF0D66061AA7AAD2E5 /* SHPKeyboardEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = AA832AB258C2CE6AC6570773C9A7036E /* SHPKeyboardEvent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2FA986F07B6B0BC7A5B603965446F28B /* NYTScalingImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 21DE1D59D0A4FC70802E927176CBD3F6 /* NYTScalingImageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		31D682AE0FBD56DBFFA7D739C970378D /* Pods-CoolStuff-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C665B9ADFFC581C573A6AC943723AFCB /* Pods-CoolStuff-tvOSTests-dummy.m */; };
+		3741A334DC608F7E827A3A6298618DD6 /* SHPKeyboardEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF3A98926D4853F851E81ABE46EB104 /* SHPKeyboardEvent.m */; };
+		3855CACDA01DCD6DCC3B9D77E19CEFCA /* NYTPhotoCaptionViewLayoutWidthHinting.h in Headers */ = {isa = PBXBuildFile; fileRef = 1483481F44A9FA3BC3D12C7B9AB9434B /* NYTPhotoCaptionViewLayoutWidthHinting.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3AAA52DDEA6018AC383576B83C39695B /* NYTPhotoTransitionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3788962EABC74298BDC899D2E65B835A /* NYTPhotoTransitionAnimator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3B69B2F2E49BDFA970A73BD158B6B7F6 /* NYTPhotosOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = CF241F2F017DC3D4D0286555915604E3 /* NYTPhotosOverlayView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3C594565083C4A830B07C685C5B6CF4F /* NYSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = F53B079CFDEC3C19FFD589586F2F4106 /* NYSegmentedControl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		401C3B1F3620BA5C4046E4AB3220A7C2 /* SHPKeyboardInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D1DAE0B953EF955E1A7061DB240ABAFF /* SHPKeyboardInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4346920DE9CA4C7AA1BD9D08507DA82C /* NYTPhotoViewerCloseButtonXLandscape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4DD7E6200FC323174F4AF34BCD1BC11 /* NYTPhotoViewerCloseButtonXLandscape@3x.png */; };
+		45E7541C6418616FB76BF999042C0764 /* SHPKeyboardInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E6D93C31DFDFED317617ABFBCAD389D8 /* SHPKeyboardInfo.m */; };
+		481ED9FFD5A391B7420CFB66A7A5E2B9 /* NYTPhotoViewerDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB889EEDF33FBCD0B2169B3BDAB16D0 /* NYTPhotoViewerDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4960F5A74BCA61AD5ED600C323FCEEF7 /* NYTPhotoViewerCloseButtonX.png in Resources */ = {isa = PBXBuildFile; fileRef = 591CCFC4A24615A0740B9C02C1421380 /* NYTPhotoViewerCloseButtonX.png */; };
+		4A5C052F4DC05DEE23BDF1955161C0E9 /* SHPKeyboardAwarenessObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = D641E1D3E7487E9359E96BAAF942FD9F /* SHPKeyboardAwarenessObserver.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4C4AB36C0AEDB4E18E881FB7A5160F7B /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5A74B13A3F691862E29F2C12813824 /* FLAnimatedImageView.m */; };
+		526BB97417632DC1DD9508C12EC83371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449153C396611228AE270C80978317D5 /* Foundation.framework */; };
+		534FBD8D0E92F8D5A4A7FED6F0033F27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449153C396611228AE270C80978317D5 /* Foundation.framework */; };
+		54F0A238489A8D6DF7B44EA9ACA4C219 /* FLAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF0C2D93EF2A2A76EB209D5852A96078 /* FLAnimatedImageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5ADFE8281959976E96E07C1CE944302B /* SHPKeyboardAwarenessScrollViewClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF9B42B1AB7D9CF4651B38F66B6B21 /* SHPKeyboardAwarenessScrollViewClient.m */; };
+		5C850D609C66C435AC4B97B1E0D0F193 /* NYTPhotosViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 92F88C9FD0A76489AB9AFE47080E4E87 /* NYTPhotosViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6097EDAC09C555EDCADB501799DBE7EC /* NSBundle+NYTPhotoViewer.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DA1A44A3F6B60E002E92A18EDD80BE /* NSBundle+NYTPhotoViewer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		60E17DFC11A2C4F9BE01021684CB63B3 /* NYTPhotoViewerCloseButtonXLandscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FAA944316D7CE0B85F1DF42B48D1EA6 /* NYTPhotoViewerCloseButtonXLandscape.png */; };
+		63DCE5FA99F9B2C6A316FF20AB9C75BF /* NYSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E12C63E11100D21A1192F488A4CFFE /* NYSegment.m */; };
+		659265D9B0B0B897C72223E950FA97B3 /* NYTPhotoCaptionView.h in Headers */ = {isa = PBXBuildFile; fileRef = DB181457C64F39905409302116DDE382 /* NYTPhotoCaptionView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		712031D47052565D64E8C58CFE5994F6 /* NYTPhotosOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = B76E68A36BFBF5E5A36399348712E011 /* NYTPhotosOverlayView.m */; };
+		7254E455525B9F45483D95AE3CBAA3BF /* NYTScalingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE4398609086BBA97F4CC43EE9616F4 /* NYTScalingImageView.m */; };
+		76C707C3EAA22F6F9B42DC1E9F62C3D8 /* SHPKeyboardAwareness.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B56BA5CEF855227FF0F28C4B7C395B5 /* SHPKeyboardAwareness.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76FC774884990D1D3AE1725BC8C26B20 /* NYTPhotoViewerArrayDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 02C7145B4B5E9D9A69EEEAF4DE4A3D35 /* NYTPhotoViewerArrayDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		77AC176D88B0888A14BE613CD68F6EB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30739AE6510B6A63B06E77FD7F5FBD2 /* CoreGraphics.framework */; };
+		7CFD71E7CBC52D52F1C6575EF8B2A905 /* NYTPhotoDismissalInteractionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C33C48A18D511DB30A329CC1AC30DAB /* NYTPhotoDismissalInteractionController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E1DC0A0E6E467ED0C3099BA33ED8C5F /* NYTPhotoDismissalInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7148C743F3AAEAFE18ACC7CFB7C1E9D2 /* NYTPhotoDismissalInteractionController.m */; };
+		7E43DC7B62F1DBE513EAD2D15E6A59CB /* NYTPhotoTransitionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 627B6214A2D8BE1F11ABDAE2A6817D54 /* NYTPhotoTransitionController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		82052CB69B788A39875D052B6F50924B /* NYTPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3E1F80B895015F71A89AB99EE1FC1 /* NYTPhoto.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		83E407EAB1183910828CFC096B20678E /* NYSegmentIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B181CE4F43167FEBEE412D09204CEC /* NYSegmentIndicator.m */; };
+		85BDE8CC2714C8C18BD035332FD49C65 /* NYTPhotoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 77EEE23E6666DB4253CAADC6A177712F /* NYTPhotoViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9659300EBAB866B7D44AF6C397CC8300 /* Pods-CoolStuff-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76281DB8B63A62CFF3B81815C3289205 /* Pods-CoolStuff-dummy.m */; };
+		9B51DED9F2800F5715AC998686A4DEBE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5B0B241EF76832C5700DF6805306F3 /* QuartzCore.framework */; };
+		9CB5FFDE120D29F4E409FF9B5A19280D /* NYTPhotoViewerSinglePhotoDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE44D4FF7653A6A63A5E431EB53B6A4 /* NYTPhotoViewerSinglePhotoDataSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9D4D3326C83A44F6B9D5E1E93F384444 /* NYSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C7982C7F23C566329469F13A1C947D54 /* NYSegmentedControl.m */; };
+		A94AAB31A74881F14A24BC514EA9780F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449153C396611228AE270C80978317D5 /* Foundation.framework */; };
+		AD0E1790919F4E9E263D82EE98C11473 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D0749654D63DEBEB21CF6DF64A4B411E /* FLAnimatedImage.m */; };
+		AF71B7ACE23E5312C2F8014572614845 /* NYTPhotoViewerCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C45F3651E5C7D636B80DDF60679A714 /* NYTPhotoViewerCore.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B716BDB104EB4011F083173505809879 /* NYTPhotoViewerCloseButtonX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA931BCA56B57FE4A0666D090A358C3D /* NYTPhotoViewerCloseButtonX@2x.png */; };
+		B97037A599DD98C66521FB2A1D850BCC /* NYTPhotoContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 00AAD899B90ACA5C7CC3E51078B044EF /* NYTPhotoContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B97BAC8ECBB959BFBE645FC00BD91D92 /* NYTPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A2EF2E728E01B2BE8706D7936C116E /* NYTPhotosViewController.m */; };
+		BA42A84AC0D4594FB3AE8696D8EA67FE /* NYSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FF8283735AA077805CD3F13F5C353F /* NYSegmentedControl-dummy.m */; };
+		BB7E163C8CF233E064641EDAA98DF0AC /* SHPKeyboardAwarenessScrollViewClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 611DCEEFF15C6E7C1E3D7CFB182182CF /* SHPKeyboardAwarenessScrollViewClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BC9480411806C046AF3AE2D532A4C33D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449153C396611228AE270C80978317D5 /* Foundation.framework */; };
+		BD30A63C4CD66CAE222A0860E705B996 /* SHPKeyboardAwarenessConstraintClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0F61DA5AC335B2C875F8262CA9826E /* SHPKeyboardAwarenessConstraintClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE0BDB4691BB3F773FB9A8261FD6BA48 /* NYTPhotoViewerSinglePhotoDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4BC88352167AB33A7245EDCEAC4D38 /* NYTPhotoViewerSinglePhotoDataSource.m */; };
+		C024B7591FFF02A981AD063A98577687 /* SHPEventInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B8AD57A0D22DD0D0C711DBA30936C7 /* SHPEventInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C8B4CA357C127C1C794AEE8DBC7CEFB4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1531B5D41DE7AB9AB2CAED090861A3 /* MobileCoreServices.framework */; };
+		D0E654DF9DA53CE36D7018BE54914BF8 /* SHPEventInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A87CF3FD6A8691896D33EFA545CF3C /* SHPEventInfo.m */; };
+		D745E7F2452D4206E54738C4E5C76D2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E378F513CCC6FA559B7FC63BBEC2324C /* Foundation.framework */; };
+		D7906A909B82B4D678361EF6EE482A4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CB1FE3AAA6DC5205CCBED5A1E9C70B /* UIKit.framework */; };
+		DDA640DE83B83C43285ABA7CF32FD69E /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3094DCC67D2E0C09621E6B0B5EA35443 /* ImageIO.framework */; };
+		E6256A52A498831065BDDE169D4A3CCF /* NYTPhotoViewerArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E31FE5B85EF55D0A93D51FFA11B37B3F /* NYTPhotoViewerArrayDataSource.m */; };
+		E65344E0757DDA3138C54237EE156D3D /* NYTPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F667ACA002A076C19F2A17E332C41E /* NYTPhotoViewController.m */; };
+		EC2CBDA5FDE6215142E6A31E2D7E7C8C /* Pods-CoolStuff-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 094F64B528E7C01A457C81F7FE9FE6D8 /* Pods-CoolStuff-tvOS-dummy.m */; };
+		F27A77D115142A2756E0734A31020273 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449153C396611228AE270C80978317D5 /* Foundation.framework */; };
+		F3285509296F5E4731A74D98808B1D98 /* NYTPhotoTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D695F9FDE0B4317D78BE0BBA4A1532B /* NYTPhotoTransitionAnimator.m */; };
+		F5C985C13BF18ADDFD8FC5627E379148 /* SHPKeyboardAwarenessClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A45A7CEE37098A9D13FA16DCF27C331 /* SHPKeyboardAwarenessClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC5C83EACF15BB801A93368E1DDD78EA /* SHPKeyboardAwarenessObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 58131C52CE920EC362DF26CA20BCAF2F /* SHPKeyboardAwarenessObserver.m */; };
+		FED99D8C672AD1DD67538C353BA9BE57 /* NYSegmentIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E6352840F1B1B72A695E9A513D4411F /* NYSegmentIndicator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		032121F42FCB7E7660A96938C6411948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87FE762BB4EDA34F16BD352A62822BE6;
+			remoteInfo = SHPKeyboardAwareness;
+		};
+		41B9B550F4FFEE0788D1137AB08CCDE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53F8571E2D572C4069860E38654A566A;
+			remoteInfo = FLAnimatedImage;
+		};
+		79AED5ACD2884AD93AE7B5B2089B98D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53F8571E2D572C4069860E38654A566A;
+			remoteInfo = FLAnimatedImage;
+		};
+		995CC2AF06F29F6AF8D1941B9DC96741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF9EBA189070402FF49E76E5C848BB24;
+			remoteInfo = NYSegmentedControl;
+		};
+		AA5796D498A859DDB0BB58DAEB33DCED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E08ABFDE9A9FEBE05E34F8D602B5D05;
+			remoteInfo = NYTPhotoViewer;
+		};
+		E9AABB33B7D8FAA00328ED4425645414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F305603935A816A46FDD1958CB4F3C54;
+			remoteInfo = "NYTPhotoViewer-NYTPhotoViewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0049C18D80CBD0D757A70ABCBD94C01E /* Pods-CoolStuff-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoolStuff-resources.sh"; sourceTree = "<group>"; };
+		00AAD899B90ACA5C7CC3E51078B044EF /* NYTPhotoContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYTPhotoContainer.h; path = NYTPhotoViewer/Protocols/NYTPhotoContainer.h; sourceTree = "<group>"; };
+		00D7FD60D4F01D4C2A1C15F0696F2CF3 /* FLAnimatedImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLAnimatedImage-dummy.m"; sourceTree = "<group>"; };
+		00F667ACA002A076C19F2A17E332C41E /* NYTPhotoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYTPhotoViewController.m; path = NYTPhotoViewer/NYTPhotoViewController.m; sourceTree = "<group>"; };
+		02C7145B4B5E9D9A69EEEAF4DE4A3D35 /* NYTPhotoViewerArrayDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYTPhotoViewerArrayDataSource.h; path = NYTPhotoViewer/NYTPhotoViewerArrayDataSource.h; sourceTree = "<group>"; };
+		0496362522942992F4FBBAFDE2961351 /* Pods-CoolStuff-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoolStuff-frameworks.sh"; sourceTree = "<group>"; };
+		094F64B528E7C01A457C81F7FE9FE6D8 /* Pods-CoolStuff-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoolStuff-tvOS-dummy.m"; sourceTree = "<group>"; };
+		0BE44D4FF7653A6A63A5E431EB53B6A4 /* NYTPhotoViewerSinglePhotoDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYTPhotoViewerSinglePhotoDataSource.h; path = NYTPhotoViewer/NYTPhotoViewerSinglePhotoDataSource.h; sourceTree = "<group>"; };
+		0CD9F310646AF61D23C786D2261753D3 /* NYTPhotoViewer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NYTPhotoViewer.xcconfig; sourceTree = "<group>"; };
+		0EEB47B98F194E3D16CC25C6F24B5D1E /* Pods-CoolStuff-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolStuff-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F1531B5D41DE7AB9AB2CAED090861A3 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		12159FDFC7774D276D60C4A200E8838B /* Pods-CoolStuffTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoolStuffTests-dummy.m"; sourceTree = "<group>"; };
+		12A87CF3FD6A8691896D33EFA545CF3C /* SHPEventInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHPEventInfo.m; path = Source/SHPEventInfo.m; sourceTree = "<group>"; };
+		1305325C754037DC5633171AAF5CDDA3 /* NYTPhotoViewerCloseButtonX@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NYTPhotoViewerCloseButtonX@3x.png"; path = "NYTPhotoViewer/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonX@3x.png"; sourceTree = "<group>"; };
+		1483481F44A9FA3BC3D12C7B9AB9434B /* NYTPhotoCaptionViewLayoutWidthHinting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYTPhotoCaptionViewLayoutWidthHinting.h; path = NYTPhotoViewer/Protocols/NYTPhotoCaptionViewLayoutWidthHinting.h; sourceTree = "<group>"; };
+		1A45A7CEE37098A9D13FA16DCF27C331 /* SHPKeyboardAwarenessClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHPKeyboardAwarenessClient.h; path = Source/SHPKeyboardAwarenessClient.h; sourceTree = "<group>"; };
+		1B02A9EA1C70D1E093084A896A253A5B /* NYTPhotoViewerCloseButtonXLandscape@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NYTPhotoViewerCloseButtonXLandscape@2x.png"; path = "NYTPhotoViewer/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonXLandscape@2x.png"; sourceTree = "<group>"; };
+		1BCEBFA8574F1E0552520075838A4F81 /* FLAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImage.h; path = FLAnimatedImage/FLAnimatedImage.h; sourceTree = "<group>"; };
+		20BDFB62F79507F0FCCCC34AD145B532 /* Pods-CoolStuffTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoolStuffTests-frameworks.sh"; sourceTree = "<group>"; };
+		21DE1D59D0A4FC70802E927176CBD3F6 /* NYTScalingImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYTScalingImageView.h; path = NYTPhotoViewer/NYTScalingImageView.h; sourceTree = "<group>"; };
+		22B8AD57A0D22DD0D0C711DBA30936C7 /* SHPEventInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHPEventInfo.h; path = Source/SHPEventInfo.h; sourceTree = "<group>"; };
+		2328269A73DA730FC9BBD0D2D74FC794 /* libPods-CoolStuff-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CoolStuff-tvOSTests.a"; path = "libPods-CoolStuff-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F9D716A2351BDA17CB38FB33F3A970 /* Pods-CoolStuff.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolStuff.release.xcconfig"; sourceTree = "<group>"; };
+		255C03D8BA4A6D2C3F52842B8FBD6723 /* libNYTPhotoViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNYTPhotoViewer.a; path = libNYTPhotoViewer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C0F61DA5AC335B2C875F8262CA9826E /* SHPKeyboardAwarenessConstraintClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHPKeyboardAwarenessConstraintClient.h; path = Source/SHPKeyboardAwarenessConstraintClient.h; sourceTree = "<group>"; };
+		2C50CD1337E1903F6B9635C94098BD4F /* NYSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NYSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
+		3094DCC67D2E0C09621E6B0B5EA35443 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		314C8BDB704D8EBD60D25B0027A5FD1D /* FLAnimatedImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLAnimatedImage.xcconfig; sourceTree = "<group>"; };
+		34FAC06050EC94A941F561F402AD5AF9 /* SHPKeyboardAwareness-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHPKeyboardAwareness-prefix.pch"; sourceTree = "<group>"; };
+		353BD1B9072358A06DF9F1DA6D19AAA1 /* libSHPKeyboardAwareness.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSHPKeyboardAwareness.a; path = libSHPKeyboardAwareness.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3788962EABC74298BDC899D2E65B835A /* NYTPhotoTransitionAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYTPhotoTransitionAnimator.h; path = NYTPhotoViewer/NYTPhotoTransitionAnimator.h; sourceTree = "<group>"; };
+		40215AED4DB51991088BB196D0326516 /* libPods-CoolStuff-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CoolStuff-tvOS.a"; path = "libPods-CoolStuff-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		449153C396611228AE270C80978317D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		47065EE8757328128C93168A8DC345B7 /* libPods-CoolStuffTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CoolStuffTests.a"; path = "libPods-CoolStuffTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		474FC69C520EFEFC7CD8B0628F97469E /* NYTPhotoViewer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NYTPhotoViewer-prefix.pch"; sourceTree = "<group>"; };
+		48A87B626CD91BB7ECBEEB2182E8182D /* NYSegmentTextRenderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYSegmentTextRenderView.m; path = NYSegmentedControl/NYSegmentTextRenderView.m; sourceTree = "<group>"; };
+		4910FF52ED1CB72FE82CE80325463377 /* ResourceBundle-NYTPhotoViewer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NYTPhotoViewer-Info.plist"; sourceTree = "<group>"; };
+		4C33C48A18D511DB30A329CC1AC30DAB /* NYTPhotoDismissalInteractionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYTPhotoDismissalInteractionController.h; path = NYTPhotoViewer/NYTPhotoDismissalInteractionController.h; sourceTree = "<group>"; };
+		4E4BC88352167AB33A7245EDCEAC4D38 /* NYTPhotoViewerSinglePhotoDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYTPhotoViewerSinglePhotoDataSource.m; path = NYTPhotoViewer/NYTPhotoViewerSinglePhotoDataSource.m; sourceTree = "<group>"; };
+		57F1A09A3DC40F0B6109676690C382E4 /* Pods-CoolStuffTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolStuffTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58131C52CE920EC362DF26CA20BCAF2F /* SHPKeyboardAwarenessObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHPKeyboardAwarenessObserver.m; path = Source/SHPKeyboardAwarenessObserver.m; sourceTree = "<group>"; };
+		58FF8283735AA077805CD3F13F5C353F /* NYSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NYSegmentedControl-dummy.m"; sourceTree = "<group>"; };
+		591CCFC4A24615A0740B9C02C1421380 /* NYTPhotoViewerCloseButtonX.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NYTPhotoViewerCloseButtonX.png; path = NYTPhotoViewer/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonX.png; sourceTree = "<group>"; };
+		59BD9883D9AF209D96E5008745EA49A2 /* Pods-CoolStuffTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolStuffTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A23C550EA111673E3B3FCC221B513E6 /* Pods-CoolStuffTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolStuffTests.release.xcconfig"; sourceTree = "<group>"; };
+		5AB889EEDF33FBCD0B2169B3BDAB16D0 /* NYTPhotoViewerDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYTPhotoViewerDataSource.h; path = NYTPhotoViewer/Protocols/NYTPhotoViewerDataSource.h; sourceTree = "<group>"; };
+		5AD125A56CECC4C6918A02AF850269B3 /* libPods-CoolStuff.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CoolStuff.a"; path = "libPods-CoolStuff.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AEF9B42B1AB7D9CF4651B38F66B6B21 /* SHPKeyboardAwarenessScrollViewClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHPKeyboardAwarenessScrollViewClient.m; path = Source/SHPKeyboardAwarenessScrollViewClient.m; sourceTree = "<group>"; };
+		5B56BA5CEF855227FF0F28C4B7C395B5 /* SHPKeyboardAwareness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHPKeyboardAwareness.h; path = Source/SHPKeyboardAwareness.h; sourceTree = "<group>"; };
+		5D695F9FDE0B4317D78BE0BBA4A1532B /* NYTPhotoTransitionAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYTPhotoTransitionAnimator.m; path = NYTPhotoViewer/NYTPhotoTransitionAnimator.m; sourceTree = "<group>"; };
+		5E6352840F1B1B72A695E9A513D4411F /* NYSegmentIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYSegmentIndicator.h; path = NYSegmentedControl/NYSegmentIndicator.h; sourceTree = "<group>"; };
+		5EE4398609086BBA97F4CC43EE9616F4 /* NYTScalingImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYTScalingImageView.m; path = NYTPhotoViewer/NYTScalingImageView.m; sourceTree = "<group>"; };
+		5EFDFF3154D1CC94A440149EE57A908D /* NYTPhotoViewer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = NYTPhotoViewer.bundle; path = "NYTPhotoViewer-NYTPhotoViewer.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61146EF3BBD4A7EA4CD73379B748C8D8 /* Pods-CoolStuffTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoolStuffTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		611DCEEFF15C6E7C1E3D7CFB182182CF /* SHPKeyboardAwarenessScrollViewClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHPKeyboardAwarenessScrollViewClient.h; path = Source/SHPKeyboardAwarenessScrollViewClient.h; sourceTree = "<group>"; };
+		627B6214A2D8BE1F11ABDAE2A6817D54 /* NYTPhotoTransitionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYTPhotoTransitionController.h; path = NYTPhotoViewer/NYTPhotoTransitionController.h; sourceTree = "<group>"; };
+		6A6B41A1FDE423876764F5A5DEFFC3C3 /* NYTPhotoCaptionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYTPhotoCaptionView.m; path = NYTPhotoViewer/NYTPhotoCaptionView.m; sourceTree = "<group>"; };
+		6C96A9005A76671FBAA4FED34DBD713A /* Pods-CoolStuff.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolStuff.debug.xcconfig"; sourceTree = "<group>"; };
+		6D2F3CD1437FB9EE3296EFCB9938ACA8 /* Pods-CoolStuff-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoolStuff-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		7148C743F3AAEAFE18ACC7CFB7C1E9D2 /* NYTPhotoDismissalInteractionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYTPhotoDismissalInteractionController.m; path = NYTPhotoViewer/NYTPhotoDismissalInteractionController.m; sourceTree = "<group>"; };
+		71F55C35849923F6347C7798D0AFCFBF /* Pods-CoolStuffTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoolStuffTests-resources.sh"; sourceTree = "<group>"; };
+		73B3E1F80B895015F71A89AB99EE1FC1 /* NYTPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYTPhoto.h; path = NYTPhotoViewer/Protocols/NYTPhoto.h; sourceTree = "<group>"; };
+		756803CC6AE773122C7B046A5843A40B /* NYSegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYSegment.h; path = NYSegmentedControl/NYSegment.h; sourceTree = "<group>"; };
+		76281DB8B63A62CFF3B81815C3289205 /* Pods-CoolStuff-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoolStuff-dummy.m"; sourceTree = "<group>"; };
+		77EEE23E6666DB4253CAADC6A177712F /* NYTPhotoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYTPhotoViewController.h; path = NYTPhotoViewer/NYTPhotoViewController.h; sourceTree = "<group>"; };
+		78CB1FE3AAA6DC5205CCBED5A1E9C70B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		78DA1A44A3F6B60E002E92A18EDD80BE /* NSBundle+NYTPhotoViewer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+NYTPhotoViewer.h"; path = "NYTPhotoViewer/Resource Loading/NSBundle+NYTPhotoViewer.h"; sourceTree = "<group>"; };
+		7A9DA160818A8C63FF26497B3C181E78 /* Pods-CoolStuff-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolStuff-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		7C45F3651E5C7D636B80DDF60679A714 /* NYTPhotoViewerCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYTPhotoViewerCore.h; path = NYTPhotoViewer/NYTPhotoViewerCore.h; sourceTree = "<group>"; };
+		7FAA944316D7CE0B85F1DF42B48D1EA6 /* NYTPhotoViewerCloseButtonXLandscape.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = NYTPhotoViewerCloseButtonXLandscape.png; path = NYTPhotoViewer/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonXLandscape.png; sourceTree = "<group>"; };
+		80F75D51EB081DDDB9091FE0A508591D /* libNYSegmentedControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNYSegmentedControl.a; path = libNYSegmentedControl.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8690C42718369FFE3E76519CDFCBA36D /* Pods-CoolStuff-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolStuff-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8778CC3E56BFF924604456C020D20E10 /* NYTPhotoTransitionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYTPhotoTransitionController.m; path = NYTPhotoViewer/NYTPhotoTransitionController.m; sourceTree = "<group>"; };
+		88C0957361BABD3DB459035C31D7213B /* FLAnimatedImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImage-prefix.pch"; sourceTree = "<group>"; };
+		8ACF440F19FFB9DABD818A0E7D30D8BB /* NSBundle+NYTPhotoViewer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+NYTPhotoViewer.m"; path = "NYTPhotoViewer/Resource Loading/NSBundle+NYTPhotoViewer.m"; sourceTree = "<group>"; };
+		8E208647BFF19F35F238B18593F0835E /* Pods-CoolStuff-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolStuff-acknowledgements.plist"; sourceTree = "<group>"; };
+		908F6B0FF5AA956D3E63FD7899D09D7B /* Pods-CoolStuff-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoolStuff-tvOS-frameworks.sh"; sourceTree = "<group>"; };
+		91C2C3C22306459EB6DB8E297F17848B /* NYSegmentTextRenderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYSegmentTextRenderView.h; path = NYSegmentedControl/NYSegmentTextRenderView.h; sourceTree = "<group>"; };
+		92F88C9FD0A76489AB9AFE47080E4E87 /* NYTPhotosViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYTPhotosViewController.h; path = NYTPhotoViewer/NYTPhotosViewController.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		960F190073427D9CA2799CA428DC9D1B /* Pods-CoolStuff-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolStuff-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B5B0B241EF76832C5700DF6805306F3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A4DD7E6200FC323174F4AF34BCD1BC11 /* NYTPhotoViewerCloseButtonXLandscape@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NYTPhotoViewerCloseButtonXLandscape@3x.png"; path = "NYTPhotoViewer/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonXLandscape@3x.png"; sourceTree = "<group>"; };
+		AA832AB258C2CE6AC6570773C9A7036E /* SHPKeyboardEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHPKeyboardEvent.h; path = Source/SHPKeyboardEvent.h; sourceTree = "<group>"; };
+		B3A2EF2E728E01B2BE8706D7936C116E /* NYTPhotosViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYTPhotosViewController.m; path = NYTPhotoViewer/NYTPhotosViewController.m; sourceTree = "<group>"; };
+		B5B181CE4F43167FEBEE412D09204CEC /* NYSegmentIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYSegmentIndicator.m; path = NYSegmentedControl/NYSegmentIndicator.m; sourceTree = "<group>"; };
+		B698AC870F66730F716739AC234C55AF /* NYSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NYSegmentedControl.xcconfig; sourceTree = "<group>"; };
+		B76E68A36BFBF5E5A36399348712E011 /* NYTPhotosOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYTPhotosOverlayView.m; path = NYTPhotoViewer/NYTPhotosOverlayView.m; sourceTree = "<group>"; };
+		B7F2C8C02BD55B92765C69A25896ACA7 /* Pods-CoolStuff-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoolStuff-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		B94839C83506ADB49BE6F3A40C0B6FC5 /* Pods-CoolStuff-tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoolStuff-tvOS-resources.sh"; sourceTree = "<group>"; };
+		BAC4DBF8FBF0371EE3E0ADD716BD2E3D /* Pods-CoolStuff-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoolStuff-tvOSTests-resources.sh"; sourceTree = "<group>"; };
+		BB5A74B13A3F691862E29F2C12813824 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImageView.m; path = FLAnimatedImage/FLAnimatedImageView.m; sourceTree = "<group>"; };
+		C665B9ADFFC581C573A6AC943723AFCB /* Pods-CoolStuff-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoolStuff-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		C6CBABD6C30AC15E72BC67483DCA19FC /* SHPKeyboardAwareness-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHPKeyboardAwareness-dummy.m"; sourceTree = "<group>"; };
+		C7982C7F23C566329469F13A1C947D54 /* NYSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYSegmentedControl.m; path = NYSegmentedControl/NYSegmentedControl.m; sourceTree = "<group>"; };
+		CF241F2F017DC3D4D0286555915604E3 /* NYTPhotosOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYTPhotosOverlayView.h; path = NYTPhotoViewer/NYTPhotosOverlayView.h; sourceTree = "<group>"; };
+		D0749654D63DEBEB21CF6DF64A4B411E /* FLAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLAnimatedImage.m; path = FLAnimatedImage/FLAnimatedImage.m; sourceTree = "<group>"; };
+		D1DAE0B953EF955E1A7061DB240ABAFF /* SHPKeyboardInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHPKeyboardInfo.h; path = Source/SHPKeyboardInfo.h; sourceTree = "<group>"; };
+		D39906AC21C963D37D4798084E17B227 /* libFLAnimatedImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFLAnimatedImage.a; path = libFLAnimatedImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3EED2E2876051C54DF31541B7028E57 /* SHPKeyboardAwarenessConstraintClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHPKeyboardAwarenessConstraintClient.m; path = Source/SHPKeyboardAwarenessConstraintClient.m; sourceTree = "<group>"; };
+		D407C67DC3FA6056A70E5E0A9FEC7469 /* Pods-CoolStuff-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoolStuff-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D641E1D3E7487E9359E96BAAF942FD9F /* SHPKeyboardAwarenessObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SHPKeyboardAwarenessObserver.h; path = Source/SHPKeyboardAwarenessObserver.h; sourceTree = "<group>"; };
+		D8E12C63E11100D21A1192F488A4CFFE /* NYSegment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYSegment.m; path = NYSegmentedControl/NYSegment.m; sourceTree = "<group>"; };
+		DB181457C64F39905409302116DDE382 /* NYTPhotoCaptionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYTPhotoCaptionView.h; path = NYTPhotoViewer/NYTPhotoCaptionView.h; sourceTree = "<group>"; };
+		DBF3A98926D4853F851E81ABE46EB104 /* SHPKeyboardEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHPKeyboardEvent.m; path = Source/SHPKeyboardEvent.m; sourceTree = "<group>"; };
+		E31FE5B85EF55D0A93D51FFA11B37B3F /* NYTPhotoViewerArrayDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NYTPhotoViewerArrayDataSource.m; path = NYTPhotoViewer/NYTPhotoViewerArrayDataSource.m; sourceTree = "<group>"; };
+		E378F513CCC6FA559B7FC63BBEC2324C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E6D93C31DFDFED317617ABFBCAD389D8 /* SHPKeyboardInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SHPKeyboardInfo.m; path = Source/SHPKeyboardInfo.m; sourceTree = "<group>"; };
+		EC1C68178C38487974763FE531FD42E1 /* Pods-CoolStuff-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoolStuff-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED43E04046ADC970A07AD51F96FD1159 /* Pods-CoolStuff-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoolStuff-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF0C2D93EF2A2A76EB209D5852A96078 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLAnimatedImageView.h; path = FLAnimatedImage/FLAnimatedImageView.h; sourceTree = "<group>"; };
+		F0F8881D99178CA5935008BA22574D58 /* Pods-CoolStuff-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CoolStuff-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F30739AE6510B6A63B06E77FD7F5FBD2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		F53B079CFDEC3C19FFD589586F2F4106 /* NYSegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYSegmentedControl.h; path = NYSegmentedControl/NYSegmentedControl.h; sourceTree = "<group>"; };
+		FA2433D601BAA93E93A1D1B1B97F153C /* NYTPhotoViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NYTPhotoViewer-dummy.m"; sourceTree = "<group>"; };
+		FA931BCA56B57FE4A0666D090A358C3D /* NYTPhotoViewerCloseButtonX@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "NYTPhotoViewerCloseButtonX@2x.png"; path = "NYTPhotoViewer/NYTPhotoViewer.bundle/NYTPhotoViewerCloseButtonX@2x.png"; sourceTree = "<group>"; };
+		FC959B8FCFAA2914516F5DD5A400BA25 /* SHPKeyboardAwareness.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHPKeyboardAwareness.xcconfig; sourceTree = "<group>"; };
+		FEA4D880F01A1242135242C82F9023C6 /* NYTPhotoViewer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NYTPhotoViewer.h; path = NYTPhotoViewer/NYTPhotoViewer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AE5536B0FB1EBB4A49F918D745C5387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27A77D115142A2756E0734A31020273 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A240F4BAA176CE8316B238B6D2F12F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88DE4EA19994B377127799BB16ABA952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2815E4F0F36DF230EA4D9D1B6C1A6456 /* Foundation.framework in Frameworks */,
+				0D8077B589BF5EF59BBC872F3CF31C4D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E86703F96A4090BC5045C37B7C91BBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77AC176D88B0888A14BE613CD68F6EB7 /* CoreGraphics.framework in Frameworks */,
+				534FBD8D0E92F8D5A4A7FED6F0033F27 /* Foundation.framework in Frameworks */,
+				DDA640DE83B83C43285ABA7CF32FD69E /* ImageIO.framework in Frameworks */,
+				C8B4CA357C127C1C794AEE8DBC7CEFB4 /* MobileCoreServices.framework in Frameworks */,
+				9B51DED9F2800F5715AC998686A4DEBE /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20623B3A1A776876E4277C3369692EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526BB97417632DC1DD9508C12EC83371 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1C21195B9F090BC2E9B15D6AB1AFD6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94AAB31A74881F14A24BC514EA9780F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F22BC879683699E12A2C448B8D877E4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9480411806C046AF3AE2D532A4C33D /* Foundation.framework in Frameworks */,
+				D7906A909B82B4D678361EF6EE482A4F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44901B5F92BFE5F16275534234DB3C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D745E7F2452D4206E54738C4E5C76D2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FACCA91AE5913ABE3F254EAE64201BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF94DA655175A435E6FE641276CE2A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1693B8C945F7483338BEB61C5E00E9FC /* NYTPhotoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				8743BA00AEA17224026A3BAFAAC44D9A /* Core */,
+				53B5FD680841D87F25330F1FADEFBE10 /* Support Files */,
+			);
+			name = NYTPhotoViewer;
+			path = NYTPhotoViewer;
+			sourceTree = "<group>";
+		};
+		2E916CB229F56FDC8C013622757AE5A0 /* SHPKeyboardAwareness */ = {
+			isa = PBXGroup;
+			children = (
+				22B8AD57A0D22DD0D0C711DBA30936C7 /* SHPEventInfo.h */,
+				12A87CF3FD6A8691896D33EFA545CF3C /* SHPEventInfo.m */,
+				5B56BA5CEF855227FF0F28C4B7C395B5 /* SHPKeyboardAwareness.h */,
+				1A45A7CEE37098A9D13FA16DCF27C331 /* SHPKeyboardAwarenessClient.h */,
+				2C0F61DA5AC335B2C875F8262CA9826E /* SHPKeyboardAwarenessConstraintClient.h */,
+				D3EED2E2876051C54DF31541B7028E57 /* SHPKeyboardAwarenessConstraintClient.m */,
+				D641E1D3E7487E9359E96BAAF942FD9F /* SHPKeyboardAwarenessObserver.h */,
+				58131C52CE920EC362DF26CA20BCAF2F /* SHPKeyboardAwarenessObserver.m */,
+				611DCEEFF15C6E7C1E3D7CFB182182CF /* SHPKeyboardAwarenessScrollViewClient.h */,
+				5AEF9B42B1AB7D9CF4651B38F66B6B21 /* SHPKeyboardAwarenessScrollViewClient.m */,
+				AA832AB258C2CE6AC6570773C9A7036E /* SHPKeyboardEvent.h */,
+				DBF3A98926D4853F851E81ABE46EB104 /* SHPKeyboardEvent.m */,
+				D1DAE0B953EF955E1A7061DB240ABAFF /* SHPKeyboardInfo.h */,
+				E6D93C31DFDFED317617ABFBCAD389D8 /* SHPKeyboardInfo.m */,
+				411D70511EBBEC0483B851C6F227085C /* Support Files */,
+			);
+			name = SHPKeyboardAwareness;
+			path = SHPKeyboardAwareness;
+			sourceTree = "<group>";
+		};
+		411D70511EBBEC0483B851C6F227085C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC959B8FCFAA2914516F5DD5A400BA25 /* SHPKeyboardAwareness.xcconfig */,
+				C6CBABD6C30AC15E72BC67483DCA19FC /* SHPKeyboardAwareness-dummy.m */,
+				34FAC06050EC94A941F561F402AD5AF9 /* SHPKeyboardAwareness-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SHPKeyboardAwareness";
+			sourceTree = "<group>";
+		};
+		4CC421935037DE987A8B36143023AAE8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				78AFC5C6D039D1562A7C5B8E40681262 /* Pods-CoolStuff */,
+				ADE340FFBE8BB3BEADC3971A68850F2E /* Pods-CoolStuff-tvOS */,
+				C2B8B9F853FF68069CF4F60064E29996 /* Pods-CoolStuff-tvOSTests */,
+				C226A05F4836C0A21B1F5212625CCFA4 /* Pods-CoolStuffTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		53B5FD680841D87F25330F1FADEFBE10 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CD9F310646AF61D23C786D2261753D3 /* NYTPhotoViewer.xcconfig */,
+				FA2433D601BAA93E93A1D1B1B97F153C /* NYTPhotoViewer-dummy.m */,
+				474FC69C520EFEFC7CD8B0628F97469E /* NYTPhotoViewer-prefix.pch */,
+				4910FF52ED1CB72FE82CE80325463377 /* ResourceBundle-NYTPhotoViewer-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NYTPhotoViewer";
+			sourceTree = "<group>";
+		};
+		57C4DA04D55CDB4DDA19CB69FC78EF54 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				E378F513CCC6FA559B7FC63BBEC2324C /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		57D3B64E1D6BA20C91D88F1ABB14B9C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D39906AC21C963D37D4798084E17B227 /* libFLAnimatedImage.a */,
+				80F75D51EB081DDDB9091FE0A508591D /* libNYSegmentedControl.a */,
+				255C03D8BA4A6D2C3F52842B8FBD6723 /* libNYTPhotoViewer.a */,
+				5AD125A56CECC4C6918A02AF850269B3 /* libPods-CoolStuff.a */,
+				40215AED4DB51991088BB196D0326516 /* libPods-CoolStuff-tvOS.a */,
+				2328269A73DA730FC9BBD0D2D74FC794 /* libPods-CoolStuff-tvOSTests.a */,
+				47065EE8757328128C93168A8DC345B7 /* libPods-CoolStuffTests.a */,
+				353BD1B9072358A06DF9F1DA6D19AAA1 /* libSHPKeyboardAwareness.a */,
+				5EFDFF3154D1CC94A440149EE57A908D /* NYTPhotoViewer.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62136FA3A3DD4AE171AB50989C111BE1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				314C8BDB704D8EBD60D25B0027A5FD1D /* FLAnimatedImage.xcconfig */,
+				00D7FD60D4F01D4C2A1C15F0696F2CF3 /* FLAnimatedImage-dummy.m */,
+				88C0957361BABD3DB459035C31D7213B /* FLAnimatedImage-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FLAnimatedImage";
+			sourceTree = "<group>";
+		};
+		78AFC5C6D039D1562A7C5B8E40681262 /* Pods-CoolStuff */ = {
+			isa = PBXGroup;
+			children = (
+				ED43E04046ADC970A07AD51F96FD1159 /* Pods-CoolStuff-acknowledgements.markdown */,
+				8E208647BFF19F35F238B18593F0835E /* Pods-CoolStuff-acknowledgements.plist */,
+				76281DB8B63A62CFF3B81815C3289205 /* Pods-CoolStuff-dummy.m */,
+				0496362522942992F4FBBAFDE2961351 /* Pods-CoolStuff-frameworks.sh */,
+				0049C18D80CBD0D757A70ABCBD94C01E /* Pods-CoolStuff-resources.sh */,
+				6C96A9005A76671FBAA4FED34DBD713A /* Pods-CoolStuff.debug.xcconfig */,
+				23F9D716A2351BDA17CB38FB33F3A970 /* Pods-CoolStuff.release.xcconfig */,
+			);
+			name = "Pods-CoolStuff";
+			path = "Target Support Files/Pods-CoolStuff";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				96DF38129FAEDA9BDF55DCA91229AD0C /* Frameworks */,
+				F594B69C3EBA3953B59A12F6C7EFEA25 /* Pods */,
+				57D3B64E1D6BA20C91D88F1ABB14B9C3 /* Products */,
+				4CC421935037DE987A8B36143023AAE8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82A7F6B3F6F4B6F3D91B6BCF4C429A76 /* NYSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				756803CC6AE773122C7B046A5843A40B /* NYSegment.h */,
+				D8E12C63E11100D21A1192F488A4CFFE /* NYSegment.m */,
+				F53B079CFDEC3C19FFD589586F2F4106 /* NYSegmentedControl.h */,
+				C7982C7F23C566329469F13A1C947D54 /* NYSegmentedControl.m */,
+				5E6352840F1B1B72A695E9A513D4411F /* NYSegmentIndicator.h */,
+				B5B181CE4F43167FEBEE412D09204CEC /* NYSegmentIndicator.m */,
+				91C2C3C22306459EB6DB8E297F17848B /* NYSegmentTextRenderView.h */,
+				48A87B626CD91BB7ECBEEB2182E8182D /* NYSegmentTextRenderView.m */,
+				918AE307953D3EB1E595986F3FFD2E3E /* Support Files */,
+			);
+			name = NYSegmentedControl;
+			path = NYSegmentedControl;
+			sourceTree = "<group>";
+		};
+		8743BA00AEA17224026A3BAFAAC44D9A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				78DA1A44A3F6B60E002E92A18EDD80BE /* NSBundle+NYTPhotoViewer.h */,
+				8ACF440F19FFB9DABD818A0E7D30D8BB /* NSBundle+NYTPhotoViewer.m */,
+				73B3E1F80B895015F71A89AB99EE1FC1 /* NYTPhoto.h */,
+				DB181457C64F39905409302116DDE382 /* NYTPhotoCaptionView.h */,
+				6A6B41A1FDE423876764F5A5DEFFC3C3 /* NYTPhotoCaptionView.m */,
+				1483481F44A9FA3BC3D12C7B9AB9434B /* NYTPhotoCaptionViewLayoutWidthHinting.h */,
+				00AAD899B90ACA5C7CC3E51078B044EF /* NYTPhotoContainer.h */,
+				4C33C48A18D511DB30A329CC1AC30DAB /* NYTPhotoDismissalInteractionController.h */,
+				7148C743F3AAEAFE18ACC7CFB7C1E9D2 /* NYTPhotoDismissalInteractionController.m */,
+				CF241F2F017DC3D4D0286555915604E3 /* NYTPhotosOverlayView.h */,
+				B76E68A36BFBF5E5A36399348712E011 /* NYTPhotosOverlayView.m */,
+				92F88C9FD0A76489AB9AFE47080E4E87 /* NYTPhotosViewController.h */,
+				B3A2EF2E728E01B2BE8706D7936C116E /* NYTPhotosViewController.m */,
+				3788962EABC74298BDC899D2E65B835A /* NYTPhotoTransitionAnimator.h */,
+				5D695F9FDE0B4317D78BE0BBA4A1532B /* NYTPhotoTransitionAnimator.m */,
+				627B6214A2D8BE1F11ABDAE2A6817D54 /* NYTPhotoTransitionController.h */,
+				8778CC3E56BFF924604456C020D20E10 /* NYTPhotoTransitionController.m */,
+				77EEE23E6666DB4253CAADC6A177712F /* NYTPhotoViewController.h */,
+				00F667ACA002A076C19F2A17E332C41E /* NYTPhotoViewController.m */,
+				FEA4D880F01A1242135242C82F9023C6 /* NYTPhotoViewer.h */,
+				02C7145B4B5E9D9A69EEEAF4DE4A3D35 /* NYTPhotoViewerArrayDataSource.h */,
+				E31FE5B85EF55D0A93D51FFA11B37B3F /* NYTPhotoViewerArrayDataSource.m */,
+				7C45F3651E5C7D636B80DDF60679A714 /* NYTPhotoViewerCore.h */,
+				5AB889EEDF33FBCD0B2169B3BDAB16D0 /* NYTPhotoViewerDataSource.h */,
+				0BE44D4FF7653A6A63A5E431EB53B6A4 /* NYTPhotoViewerSinglePhotoDataSource.h */,
+				4E4BC88352167AB33A7245EDCEAC4D38 /* NYTPhotoViewerSinglePhotoDataSource.m */,
+				21DE1D59D0A4FC70802E927176CBD3F6 /* NYTScalingImageView.h */,
+				5EE4398609086BBA97F4CC43EE9616F4 /* NYTScalingImageView.m */,
+				994DD708A702BEEE3DCB8D49CCCB676F /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		918AE307953D3EB1E595986F3FFD2E3E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B698AC870F66730F716739AC234C55AF /* NYSegmentedControl.xcconfig */,
+				58FF8283735AA077805CD3F13F5C353F /* NYSegmentedControl-dummy.m */,
+				2C50CD1337E1903F6B9635C94098BD4F /* NYSegmentedControl-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NYSegmentedControl";
+			sourceTree = "<group>";
+		};
+		96DF38129FAEDA9BDF55DCA91229AD0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4565AFB5089E4C475CE78D6A19F714A /* iOS */,
+				57C4DA04D55CDB4DDA19CB69FC78EF54 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		994DD708A702BEEE3DCB8D49CCCB676F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				591CCFC4A24615A0740B9C02C1421380 /* NYTPhotoViewerCloseButtonX.png */,
+				FA931BCA56B57FE4A0666D090A358C3D /* NYTPhotoViewerCloseButtonX@2x.png */,
+				1305325C754037DC5633171AAF5CDDA3 /* NYTPhotoViewerCloseButtonX@3x.png */,
+				7FAA944316D7CE0B85F1DF42B48D1EA6 /* NYTPhotoViewerCloseButtonXLandscape.png */,
+				1B02A9EA1C70D1E093084A896A253A5B /* NYTPhotoViewerCloseButtonXLandscape@2x.png */,
+				A4DD7E6200FC323174F4AF34BCD1BC11 /* NYTPhotoViewerCloseButtonXLandscape@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9B76CABFB9290C0FC4100125D5A39CCC /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				1BCEBFA8574F1E0552520075838A4F81 /* FLAnimatedImage.h */,
+				D0749654D63DEBEB21CF6DF64A4B411E /* FLAnimatedImage.m */,
+				EF0C2D93EF2A2A76EB209D5852A96078 /* FLAnimatedImageView.h */,
+				BB5A74B13A3F691862E29F2C12813824 /* FLAnimatedImageView.m */,
+				62136FA3A3DD4AE171AB50989C111BE1 /* Support Files */,
+			);
+			name = FLAnimatedImage;
+			path = FLAnimatedImage;
+			sourceTree = "<group>";
+		};
+		ADE340FFBE8BB3BEADC3971A68850F2E /* Pods-CoolStuff-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				D407C67DC3FA6056A70E5E0A9FEC7469 /* Pods-CoolStuff-tvOS-acknowledgements.markdown */,
+				0EEB47B98F194E3D16CC25C6F24B5D1E /* Pods-CoolStuff-tvOS-acknowledgements.plist */,
+				094F64B528E7C01A457C81F7FE9FE6D8 /* Pods-CoolStuff-tvOS-dummy.m */,
+				908F6B0FF5AA956D3E63FD7899D09D7B /* Pods-CoolStuff-tvOS-frameworks.sh */,
+				B94839C83506ADB49BE6F3A40C0B6FC5 /* Pods-CoolStuff-tvOS-resources.sh */,
+				8690C42718369FFE3E76519CDFCBA36D /* Pods-CoolStuff-tvOS.debug.xcconfig */,
+				B7F2C8C02BD55B92765C69A25896ACA7 /* Pods-CoolStuff-tvOS.release.xcconfig */,
+			);
+			name = "Pods-CoolStuff-tvOS";
+			path = "Target Support Files/Pods-CoolStuff-tvOS";
+			sourceTree = "<group>";
+		};
+		C226A05F4836C0A21B1F5212625CCFA4 /* Pods-CoolStuffTests */ = {
+			isa = PBXGroup;
+			children = (
+				61146EF3BBD4A7EA4CD73379B748C8D8 /* Pods-CoolStuffTests-acknowledgements.markdown */,
+				59BD9883D9AF209D96E5008745EA49A2 /* Pods-CoolStuffTests-acknowledgements.plist */,
+				12159FDFC7774D276D60C4A200E8838B /* Pods-CoolStuffTests-dummy.m */,
+				20BDFB62F79507F0FCCCC34AD145B532 /* Pods-CoolStuffTests-frameworks.sh */,
+				71F55C35849923F6347C7798D0AFCFBF /* Pods-CoolStuffTests-resources.sh */,
+				57F1A09A3DC40F0B6109676690C382E4 /* Pods-CoolStuffTests.debug.xcconfig */,
+				5A23C550EA111673E3B3FCC221B513E6 /* Pods-CoolStuffTests.release.xcconfig */,
+			);
+			name = "Pods-CoolStuffTests";
+			path = "Target Support Files/Pods-CoolStuffTests";
+			sourceTree = "<group>";
+		};
+		C2B8B9F853FF68069CF4F60064E29996 /* Pods-CoolStuff-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0F8881D99178CA5935008BA22574D58 /* Pods-CoolStuff-tvOSTests-acknowledgements.markdown */,
+				EC1C68178C38487974763FE531FD42E1 /* Pods-CoolStuff-tvOSTests-acknowledgements.plist */,
+				C665B9ADFFC581C573A6AC943723AFCB /* Pods-CoolStuff-tvOSTests-dummy.m */,
+				6D2F3CD1437FB9EE3296EFCB9938ACA8 /* Pods-CoolStuff-tvOSTests-frameworks.sh */,
+				BAC4DBF8FBF0371EE3E0ADD716BD2E3D /* Pods-CoolStuff-tvOSTests-resources.sh */,
+				960F190073427D9CA2799CA428DC9D1B /* Pods-CoolStuff-tvOSTests.debug.xcconfig */,
+				7A9DA160818A8C63FF26497B3C181E78 /* Pods-CoolStuff-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-CoolStuff-tvOSTests";
+			path = "Target Support Files/Pods-CoolStuff-tvOSTests";
+			sourceTree = "<group>";
+		};
+		F4565AFB5089E4C475CE78D6A19F714A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F30739AE6510B6A63B06E77FD7F5FBD2 /* CoreGraphics.framework */,
+				449153C396611228AE270C80978317D5 /* Foundation.framework */,
+				3094DCC67D2E0C09621E6B0B5EA35443 /* ImageIO.framework */,
+				0F1531B5D41DE7AB9AB2CAED090861A3 /* MobileCoreServices.framework */,
+				9B5B0B241EF76832C5700DF6805306F3 /* QuartzCore.framework */,
+				78CB1FE3AAA6DC5205CCBED5A1E9C70B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F594B69C3EBA3953B59A12F6C7EFEA25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B76CABFB9290C0FC4100125D5A39CCC /* FLAnimatedImage */,
+				82A7F6B3F6F4B6F3D91B6BCF4C429A76 /* NYSegmentedControl */,
+				1693B8C945F7483338BEB61C5E00E9FC /* NYTPhotoViewer */,
+				2E916CB229F56FDC8C013622757AE5A0 /* SHPKeyboardAwareness */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		309FE3FE0A485065BBBC11406C3125E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C024B7591FFF02A981AD063A98577687 /* SHPEventInfo.h in Headers */,
+				76C707C3EAA22F6F9B42DC1E9F62C3D8 /* SHPKeyboardAwareness.h in Headers */,
+				F5C985C13BF18ADDFD8FC5627E379148 /* SHPKeyboardAwarenessClient.h in Headers */,
+				BD30A63C4CD66CAE222A0860E705B996 /* SHPKeyboardAwarenessConstraintClient.h in Headers */,
+				4A5C052F4DC05DEE23BDF1955161C0E9 /* SHPKeyboardAwarenessObserver.h in Headers */,
+				BB7E163C8CF233E064641EDAA98DF0AC /* SHPKeyboardAwarenessScrollViewClient.h in Headers */,
+				2E24CCCCED0A12BF0D66061AA7AAD2E5 /* SHPKeyboardEvent.h in Headers */,
+				401C3B1F3620BA5C4046E4AB3220A7C2 /* SHPKeyboardInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7302CE7D9AE53174060E2127FEC17174 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5FEA8377B267CE91653EF5FBB856FF /* FLAnimatedImage.h in Headers */,
+				54F0A238489A8D6DF7B44EA9ACA4C219 /* FLAnimatedImageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7D59A31DB6D8206430E57A5DB79228 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6097EDAC09C555EDCADB501799DBE7EC /* NSBundle+NYTPhotoViewer.h in Headers */,
+				82052CB69B788A39875D052B6F50924B /* NYTPhoto.h in Headers */,
+				659265D9B0B0B897C72223E950FA97B3 /* NYTPhotoCaptionView.h in Headers */,
+				3855CACDA01DCD6DCC3B9D77E19CEFCA /* NYTPhotoCaptionViewLayoutWidthHinting.h in Headers */,
+				B97037A599DD98C66521FB2A1D850BCC /* NYTPhotoContainer.h in Headers */,
+				7CFD71E7CBC52D52F1C6575EF8B2A905 /* NYTPhotoDismissalInteractionController.h in Headers */,
+				3B69B2F2E49BDFA970A73BD158B6B7F6 /* NYTPhotosOverlayView.h in Headers */,
+				5C850D609C66C435AC4B97B1E0D0F193 /* NYTPhotosViewController.h in Headers */,
+				3AAA52DDEA6018AC383576B83C39695B /* NYTPhotoTransitionAnimator.h in Headers */,
+				7E43DC7B62F1DBE513EAD2D15E6A59CB /* NYTPhotoTransitionController.h in Headers */,
+				85BDE8CC2714C8C18BD035332FD49C65 /* NYTPhotoViewController.h in Headers */,
+				0A91AB2004A982DA48F13DEBCDF18A65 /* NYTPhotoViewer.h in Headers */,
+				76FC774884990D1D3AE1725BC8C26B20 /* NYTPhotoViewerArrayDataSource.h in Headers */,
+				AF71B7ACE23E5312C2F8014572614845 /* NYTPhotoViewerCore.h in Headers */,
+				481ED9FFD5A391B7420CFB66A7A5E2B9 /* NYTPhotoViewerDataSource.h in Headers */,
+				9CB5FFDE120D29F4E409FF9B5A19280D /* NYTPhotoViewerSinglePhotoDataSource.h in Headers */,
+				2FA986F07B6B0BC7A5B603965446F28B /* NYTScalingImageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA85A3AAF9CA69E933CBCE2491A1C819 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034185167C322BD60754C5BC8DC34595 /* NYSegment.h in Headers */,
+				3C594565083C4A830B07C685C5B6CF4F /* NYSegmentedControl.h in Headers */,
+				FED99D8C672AD1DD67538C353BA9BE57 /* NYSegmentIndicator.h in Headers */,
+				0DAF1122E5F14FE2758F0F9484C2D841 /* NYSegmentTextRenderView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3FB21043510A5D08CC4DAB00CBC89563 /* Pods-CoolStuffTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8A12A7A18D7B8F3B955F174091A8879 /* Build configuration list for PBXNativeTarget "Pods-CoolStuffTests" */;
+			buildPhases = (
+				3FE4E564DAB7359E44555904D7150DBE /* Sources */,
+				D1C21195B9F090BC2E9B15D6AB1AFD6D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CoolStuffTests";
+			productName = "Pods-CoolStuffTests";
+			productReference = 47065EE8757328128C93168A8DC345B7 /* libPods-CoolStuffTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		53F8571E2D572C4069860E38654A566A /* FLAnimatedImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EA4F995CBBF1300B4D566BFA7DD3B38 /* Build configuration list for PBXNativeTarget "FLAnimatedImage" */;
+			buildPhases = (
+				9A240679857C41948A668489081D7FB6 /* Sources */,
+				8E86703F96A4090BC5045C37B7C91BBB /* Frameworks */,
+				7302CE7D9AE53174060E2127FEC17174 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLAnimatedImage;
+			productName = FLAnimatedImage;
+			productReference = D39906AC21C963D37D4798084E17B227 /* libFLAnimatedImage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		584D4953F3D09E75CB748A94E6AA47A2 /* Pods-CoolStuff-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F435535E63F15FDEE6B44FA9C3E894E3 /* Build configuration list for PBXNativeTarget "Pods-CoolStuff-tvOSTests" */;
+			buildPhases = (
+				4EABB4AAD0B4A42DE722D8DF0BBBA069 /* Sources */,
+				F44901B5F92BFE5F16275534234DB3C2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CoolStuff-tvOSTests";
+			productName = "Pods-CoolStuff-tvOSTests";
+			productReference = 2328269A73DA730FC9BBD0D2D74FC794 /* libPods-CoolStuff-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		87FE762BB4EDA34F16BD352A62822BE6 /* SHPKeyboardAwareness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9B74E682CC08E835118B2F2FCF4982 /* Build configuration list for PBXNativeTarget "SHPKeyboardAwareness" */;
+			buildPhases = (
+				26540C965F5D09E855DC276AFBF01953 /* Sources */,
+				F22BC879683699E12A2C448B8D877E4E /* Frameworks */,
+				309FE3FE0A485065BBBC11406C3125E1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHPKeyboardAwareness;
+			productName = SHPKeyboardAwareness;
+			productReference = 353BD1B9072358A06DF9F1DA6D19AAA1 /* libSHPKeyboardAwareness.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9E08ABFDE9A9FEBE05E34F8D602B5D05 /* NYTPhotoViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D0FFB16B3CD0C97180CA14055E3E8CA /* Build configuration list for PBXNativeTarget "NYTPhotoViewer" */;
+			buildPhases = (
+				DA4FB5051BB7C7B1C896461161B6B64E /* Sources */,
+				88DE4EA19994B377127799BB16ABA952 /* Frameworks */,
+				CF7D59A31DB6D8206430E57A5DB79228 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C48C86A0E4F1518D8C0766A11FBF91F1 /* PBXTargetDependency */,
+				AADCED0C798BE2B8014C1AE5C68E3A09 /* PBXTargetDependency */,
+			);
+			name = NYTPhotoViewer;
+			productName = NYTPhotoViewer;
+			productReference = 255C03D8BA4A6D2C3F52842B8FBD6723 /* libNYTPhotoViewer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BF9EBA189070402FF49E76E5C848BB24 /* NYSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72C340C176F5B9F3F0B1846D0AE179D9 /* Build configuration list for PBXNativeTarget "NYSegmentedControl" */;
+			buildPhases = (
+				38D3CB394A330590E1060FCB9FFF396A /* Sources */,
+				6AE5536B0FB1EBB4A49F918D745C5387 /* Frameworks */,
+				DA85A3AAF9CA69E933CBCE2491A1C819 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NYSegmentedControl;
+			productName = NYSegmentedControl;
+			productReference = 80F75D51EB081DDDB9091FE0A508591D /* libNYSegmentedControl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C48E1FD2F7AD440D8582559C7DB0E865 /* Pods-CoolStuff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 302ABCADA864DF32D1DB6F3FD67B986F /* Build configuration list for PBXNativeTarget "Pods-CoolStuff" */;
+			buildPhases = (
+				607171B27B39EA85685A88F31142BE45 /* Sources */,
+				B20623B3A1A776876E4277C3369692EA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B999FBE65B3C28E1A43C6E7CD615BDD /* PBXTargetDependency */,
+				2E558718B58B4BE52CD4B8D72307EF02 /* PBXTargetDependency */,
+				B16AADD73AA87347B3F37F402232B6B6 /* PBXTargetDependency */,
+				A133A0600116B1647BAFACB91F36B26A /* PBXTargetDependency */,
+			);
+			name = "Pods-CoolStuff";
+			productName = "Pods-CoolStuff";
+			productReference = 5AD125A56CECC4C6918A02AF850269B3 /* libPods-CoolStuff.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F305603935A816A46FDD1958CB4F3C54 /* NYTPhotoViewer-NYTPhotoViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488835F4521D010A251EC7F3D629D7A0 /* Build configuration list for PBXNativeTarget "NYTPhotoViewer-NYTPhotoViewer" */;
+			buildPhases = (
+				BFA303B17D74334C2F842B206918158F /* Sources */,
+				77A240F4BAA176CE8316B238B6D2F12F /* Frameworks */,
+				4B228C53FE1E54F0841D5D8D36BB7F64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NYTPhotoViewer-NYTPhotoViewer";
+			productName = "NYTPhotoViewer-NYTPhotoViewer";
+			productReference = 5EFDFF3154D1CC94A440149EE57A908D /* NYTPhotoViewer.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FFAA03D8C1A4CA50871F93C96601654A /* Pods-CoolStuff-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56D35E553FD3264CD329571E3D8C5E4F /* Build configuration list for PBXNativeTarget "Pods-CoolStuff-tvOS" */;
+			buildPhases = (
+				67D4A0ED94C9CD37B223F2F5420DCF1A /* Sources */,
+				FACCA91AE5913ABE3F254EAE64201BA5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CoolStuff-tvOS";
+			productName = "Pods-CoolStuff-tvOS";
+			productReference = 40215AED4DB51991088BB196D0326516 /* libPods-CoolStuff-tvOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 57D3B64E1D6BA20C91D88F1ABB14B9C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53F8571E2D572C4069860E38654A566A /* FLAnimatedImage */,
+				BF9EBA189070402FF49E76E5C848BB24 /* NYSegmentedControl */,
+				9E08ABFDE9A9FEBE05E34F8D602B5D05 /* NYTPhotoViewer */,
+				F305603935A816A46FDD1958CB4F3C54 /* NYTPhotoViewer-NYTPhotoViewer */,
+				C48E1FD2F7AD440D8582559C7DB0E865 /* Pods-CoolStuff */,
+				FFAA03D8C1A4CA50871F93C96601654A /* Pods-CoolStuff-tvOS */,
+				584D4953F3D09E75CB748A94E6AA47A2 /* Pods-CoolStuff-tvOSTests */,
+				3FB21043510A5D08CC4DAB00CBC89563 /* Pods-CoolStuffTests */,
+				87FE762BB4EDA34F16BD352A62822BE6 /* SHPKeyboardAwareness */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B228C53FE1E54F0841D5D8D36BB7F64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4960F5A74BCA61AD5ED600C323FCEEF7 /* NYTPhotoViewerCloseButtonX.png in Resources */,
+				B716BDB104EB4011F083173505809879 /* NYTPhotoViewerCloseButtonX@2x.png in Resources */,
+				1E890935461208AB7CAFF617DC290958 /* NYTPhotoViewerCloseButtonX@3x.png in Resources */,
+				60E17DFC11A2C4F9BE01021684CB63B3 /* NYTPhotoViewerCloseButtonXLandscape.png in Resources */,
+				064E9A3A6D936861F835A39CCE47B1F3 /* NYTPhotoViewerCloseButtonXLandscape@2x.png in Resources */,
+				4346920DE9CA4C7AA1BD9D08507DA82C /* NYTPhotoViewerCloseButtonXLandscape@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26540C965F5D09E855DC276AFBF01953 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E654DF9DA53CE36D7018BE54914BF8 /* SHPEventInfo.m in Sources */,
+				046BFFA30C0543368B838A5FEB49D9F1 /* SHPKeyboardAwareness-dummy.m in Sources */,
+				13A41D96294CC2E49ADC592C2D8D5869 /* SHPKeyboardAwarenessConstraintClient.m in Sources */,
+				FC5C83EACF15BB801A93368E1DDD78EA /* SHPKeyboardAwarenessObserver.m in Sources */,
+				5ADFE8281959976E96E07C1CE944302B /* SHPKeyboardAwarenessScrollViewClient.m in Sources */,
+				3741A334DC608F7E827A3A6298618DD6 /* SHPKeyboardEvent.m in Sources */,
+				45E7541C6418616FB76BF999042C0764 /* SHPKeyboardInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38D3CB394A330590E1060FCB9FFF396A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DCE5FA99F9B2C6A316FF20AB9C75BF /* NYSegment.m in Sources */,
+				BA42A84AC0D4594FB3AE8696D8EA67FE /* NYSegmentedControl-dummy.m in Sources */,
+				9D4D3326C83A44F6B9D5E1E93F384444 /* NYSegmentedControl.m in Sources */,
+				83E407EAB1183910828CFC096B20678E /* NYSegmentIndicator.m in Sources */,
+				0A3CC033F5955760C868E49D6D0201BB /* NYSegmentTextRenderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FE4E564DAB7359E44555904D7150DBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16FB3516BB84A817514AA081F68BF906 /* Pods-CoolStuffTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EABB4AAD0B4A42DE722D8DF0BBBA069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31D682AE0FBD56DBFFA7D739C970378D /* Pods-CoolStuff-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607171B27B39EA85685A88F31142BE45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9659300EBAB866B7D44AF6C397CC8300 /* Pods-CoolStuff-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D4A0ED94C9CD37B223F2F5420DCF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2CBDA5FDE6215142E6A31E2D7E7C8C /* Pods-CoolStuff-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A240679857C41948A668489081D7FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F06B12AAC5CD0C807ECE5B3B3D2BAC /* FLAnimatedImage-dummy.m in Sources */,
+				AD0E1790919F4E9E263D82EE98C11473 /* FLAnimatedImage.m in Sources */,
+				4C4AB36C0AEDB4E18E881FB7A5160F7B /* FLAnimatedImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA303B17D74334C2F842B206918158F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA4FB5051BB7C7B1C896461161B6B64E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE67D6F57FFBCD493F4CF92C7FE6678 /* NSBundle+NYTPhotoViewer.m in Sources */,
+				1EB23C3B6B1C763592CE041B2C845A65 /* NYTPhotoCaptionView.m in Sources */,
+				7E1DC0A0E6E467ED0C3099BA33ED8C5F /* NYTPhotoDismissalInteractionController.m in Sources */,
+				712031D47052565D64E8C58CFE5994F6 /* NYTPhotosOverlayView.m in Sources */,
+				B97BAC8ECBB959BFBE645FC00BD91D92 /* NYTPhotosViewController.m in Sources */,
+				F3285509296F5E4731A74D98808B1D98 /* NYTPhotoTransitionAnimator.m in Sources */,
+				177EA7481528AFB4F458FC44038BA9D3 /* NYTPhotoTransitionController.m in Sources */,
+				E65344E0757DDA3138C54237EE156D3D /* NYTPhotoViewController.m in Sources */,
+				09BF4BC22F23CD9986D5D24AAF38B838 /* NYTPhotoViewer-dummy.m in Sources */,
+				E6256A52A498831065BDDE169D4A3CCF /* NYTPhotoViewerArrayDataSource.m in Sources */,
+				BE0BDB4691BB3F773FB9A8261FD6BA48 /* NYTPhotoViewerSinglePhotoDataSource.m in Sources */,
+				7254E455525B9F45483D95AE3CBAA3BF /* NYTScalingImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B999FBE65B3C28E1A43C6E7CD615BDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLAnimatedImage;
+			target = 53F8571E2D572C4069860E38654A566A /* FLAnimatedImage */;
+			targetProxy = 41B9B550F4FFEE0788D1137AB08CCDE4 /* PBXContainerItemProxy */;
+		};
+		2E558718B58B4BE52CD4B8D72307EF02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NYSegmentedControl;
+			target = BF9EBA189070402FF49E76E5C848BB24 /* NYSegmentedControl */;
+			targetProxy = 995CC2AF06F29F6AF8D1941B9DC96741 /* PBXContainerItemProxy */;
+		};
+		A133A0600116B1647BAFACB91F36B26A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SHPKeyboardAwareness;
+			target = 87FE762BB4EDA34F16BD352A62822BE6 /* SHPKeyboardAwareness */;
+			targetProxy = 032121F42FCB7E7660A96938C6411948 /* PBXContainerItemProxy */;
+		};
+		AADCED0C798BE2B8014C1AE5C68E3A09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NYTPhotoViewer-NYTPhotoViewer";
+			target = F305603935A816A46FDD1958CB4F3C54 /* NYTPhotoViewer-NYTPhotoViewer */;
+			targetProxy = E9AABB33B7D8FAA00328ED4425645414 /* PBXContainerItemProxy */;
+		};
+		B16AADD73AA87347B3F37F402232B6B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NYTPhotoViewer;
+			target = 9E08ABFDE9A9FEBE05E34F8D602B5D05 /* NYTPhotoViewer */;
+			targetProxy = AA5796D498A859DDB0BB58DAEB33DCED /* PBXContainerItemProxy */;
+		};
+		C48C86A0E4F1518D8C0766A11FBF91F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FLAnimatedImage;
+			target = 53F8571E2D572C4069860E38654A566A /* FLAnimatedImage */;
+			targetProxy = 79AED5ACD2884AD93AE7B5B2089B98D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052992F2DFF1B4EF55F084023CCF5ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 314C8BDB704D8EBD60D25B0027A5FD1D /* FLAnimatedImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FLAnimatedImage/FLAnimatedImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1991AEFB3EE64BCC506A634545931545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B698AC870F66730F716739AC234C55AF /* NYSegmentedControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NYSegmentedControl/NYSegmentedControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A15F2823E31A3210FE31A7B90D32B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		1C569D04588D76A55ED3D6A98A6C0519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD9F310646AF61D23C786D2261753D3 /* NYTPhotoViewer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NYTPhotoViewer/NYTPhotoViewer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39A485195E3407E8392BFC081CE8530B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		4279C29032E60C910D79D739949F5DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A9DA160818A8C63FF26497B3C181E78 /* Pods-CoolStuff-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60A66688945ED55FA6A5C81BCC1CB8D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C96A9005A76671FBAA4FED34DBD713A /* Pods-CoolStuff.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6211788F58D8C7D5AAF15794D4C8F698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F2C8C02BD55B92765C69A25896ACA7 /* Pods-CoolStuff-tvOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		637814B21DBAA868D15262FE85C3050D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 314C8BDB704D8EBD60D25B0027A5FD1D /* FLAnimatedImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FLAnimatedImage/FLAnimatedImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B4A5A29CC78D59B74C80EA7BF1BE6C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD9F310646AF61D23C786D2261753D3 /* NYTPhotoViewer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NYTPhotoViewer/NYTPhotoViewer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F0F96A5567D90DCECAFC8BE292151D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC959B8FCFAA2914516F5DD5A400BA25 /* SHPKeyboardAwareness.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SHPKeyboardAwareness/SHPKeyboardAwareness-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87B263DE65F8615CAB6E5E3A706EEB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8690C42718369FFE3E76519CDFCBA36D /* Pods-CoolStuff-tvOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		8FCF245FA2181E8DE98C4A2A838265A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A23C550EA111673E3B3FCC221B513E6 /* Pods-CoolStuffTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		926A762F0131BD53027C30113E99534F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57F1A09A3DC40F0B6109676690C382E4 /* Pods-CoolStuffTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B00E10D11346D46E7851EB08475CE12C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B698AC870F66730F716739AC234C55AF /* NYSegmentedControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NYSegmentedControl/NYSegmentedControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEECE4B3C88A22F29A2C3E0B4EC08769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD9F310646AF61D23C786D2261753D3 /* NYTPhotoViewer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NYTPhotoViewer";
+				INFOPLIST_FILE = "Target Support Files/NYTPhotoViewer/ResourceBundle-NYTPhotoViewer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = NYTPhotoViewer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D13E71FE05B4FE17620F653660ED02D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD9F310646AF61D23C786D2261753D3 /* NYTPhotoViewer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NYTPhotoViewer";
+				INFOPLIST_FILE = "Target Support Files/NYTPhotoViewer/ResourceBundle-NYTPhotoViewer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = NYTPhotoViewer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D4BA8F3E9568CDC187EDF9F553B7BD75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC959B8FCFAA2914516F5DD5A400BA25 /* SHPKeyboardAwareness.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SHPKeyboardAwareness/SHPKeyboardAwareness-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F90725AB14C111B7EA5AC913F62B8848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23F9D716A2351BDA17CB38FB33F3A970 /* Pods-CoolStuff.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F91785EB2683E789E1D0A001A3118873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 960F190073427D9CA2799CA428DC9D1B /* Pods-CoolStuff-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EA4F995CBBF1300B4D566BFA7DD3B38 /* Build configuration list for PBXNativeTarget "FLAnimatedImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637814B21DBAA868D15262FE85C3050D /* Debug */,
+				052992F2DFF1B4EF55F084023CCF5ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A15F2823E31A3210FE31A7B90D32B8F /* Debug */,
+				39A485195E3407E8392BFC081CE8530B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		302ABCADA864DF32D1DB6F3FD67B986F /* Build configuration list for PBXNativeTarget "Pods-CoolStuff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60A66688945ED55FA6A5C81BCC1CB8D0 /* Debug */,
+				F90725AB14C111B7EA5AC913F62B8848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488835F4521D010A251EC7F3D629D7A0 /* Build configuration list for PBXNativeTarget "NYTPhotoViewer-NYTPhotoViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEECE4B3C88A22F29A2C3E0B4EC08769 /* Debug */,
+				D13E71FE05B4FE17620F653660ED02D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56D35E553FD3264CD329571E3D8C5E4F /* Build configuration list for PBXNativeTarget "Pods-CoolStuff-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B263DE65F8615CAB6E5E3A706EEB5E /* Debug */,
+				6211788F58D8C7D5AAF15794D4C8F698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72C340C176F5B9F3F0B1846D0AE179D9 /* Build configuration list for PBXNativeTarget "NYSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1991AEFB3EE64BCC506A634545931545 /* Debug */,
+				B00E10D11346D46E7851EB08475CE12C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D0FFB16B3CD0C97180CA14055E3E8CA /* Build configuration list for PBXNativeTarget "NYTPhotoViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B4A5A29CC78D59B74C80EA7BF1BE6C0 /* Debug */,
+				1C569D04588D76A55ED3D6A98A6C0519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A9B74E682CC08E835118B2F2FCF4982 /* Build configuration list for PBXNativeTarget "SHPKeyboardAwareness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4BA8F3E9568CDC187EDF9F553B7BD75 /* Debug */,
+				7F0F96A5567D90DCECAFC8BE292151D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F435535E63F15FDEE6B44FA9C3E894E3 /* Build configuration list for PBXNativeTarget "Pods-CoolStuff-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91785EB2683E789E1D0A001A3118873 /* Debug */,
+				4279C29032E60C910D79D739949F5DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8A12A7A18D7B8F3B955F174091A8879 /* Build configuration list for PBXNativeTarget "Pods-CoolStuffTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926A762F0131BD53027C30113E99534F /* Debug */,
+				8FCF245FA2181E8DE98C4A2A838265A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

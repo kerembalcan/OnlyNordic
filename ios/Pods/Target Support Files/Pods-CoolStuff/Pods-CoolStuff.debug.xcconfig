@@ -1,0 +1,9 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 ANIMATED_GIF_SUPPORT=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FLAnimatedImage" "${PODS_ROOT}/Headers/Public/NYSegmentedControl" "${PODS_ROOT}/Headers/Public/NYTPhotoViewer" "${PODS_ROOT}/Headers/Public/SHPKeyboardAwareness"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/FLAnimatedImage" "${PODS_CONFIGURATION_BUILD_DIR}/NYSegmentedControl" "${PODS_CONFIGURATION_BUILD_DIR}/NYTPhotoViewer" "${PODS_CONFIGURATION_BUILD_DIR}/SHPKeyboardAwareness"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/FLAnimatedImage" -isystem "${PODS_ROOT}/Headers/Public/NYSegmentedControl" -isystem "${PODS_ROOT}/Headers/Public/NYTPhotoViewer" -isystem "${PODS_ROOT}/Headers/Public/SHPKeyboardAwareness"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"FLAnimatedImage" -l"NYSegmentedControl" -l"NYTPhotoViewer" -l"SHPKeyboardAwareness" -framework "CoreGraphics" -framework "Foundation" -framework "ImageIO" -framework "MobileCoreServices" -framework "QuartzCore" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
