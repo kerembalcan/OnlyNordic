@@ -21,7 +21,6 @@ class RNNYTPhotoViewerComponent extends React.Component {
             d.summaryColor = processColor(o.summaryColor);
           }
           if (typeof o.titleColor === "string") {
-            console.warn("o.title", o.titleColor);
             d.titleColor = processColor(o.titleColor);
           }
           // resolve assets

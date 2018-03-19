@@ -11,6 +11,7 @@ import {
 } from 'react-native';
 
 import RNNYTPhotoViewer from "./NativeModules/RNNYTPhotoViewer/RNNYTPhotoViewer";
+import type {CompleteProps} from "./InitialScreen/containers";
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -66,8 +67,17 @@ const photos = [
   }
 ];
 
+type FutureViewState = {
+  visible: boolean,
+  initial: number,
+  edges: Array<Object>,
+  photos: Array<Object>
+}
 export default class FutureView extends React.Component {
-  constructor(props) {
+  state: FutureViewState;
+  props: CompleteProps;
+
+  constructor(props : CompleteProps) {
     super(props);
     this.state = {
       visible: false,

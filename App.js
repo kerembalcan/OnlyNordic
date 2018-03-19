@@ -3,8 +3,12 @@ import React from 'react'
 import { Provider } from 'react-redux'
 import {combineReducers, createStore, applyMiddleware} from 'redux'
 import thunkMiddleware from 'redux-thunk';
-// import MainNavigator from './navigation';
-import { createLogger} from 'redux-logger'
+import MainNavigator from './src/navigation';
+import { createLogger} from 'redux-logger';
+
+import initialScreenReducer from './src/InitialScreen/reducer';
+import type {State as initialScreenState} from "./src/InitialScreen/reducer";
+
 import FutureView from "./src/futureView";
 
 const logger = createLogger({
@@ -17,7 +21,8 @@ function mainReducer(state={}, action) {
 }
 
 const appReducer = combineReducers({
-  mainReducer
+  mainReducer,
+  initialScreenReducer
 });
 
 const rootReducer = ( state, action ) => {
@@ -29,9 +34,7 @@ const rootReducer = ( state, action ) => {
 
 
 export type GlobalState = {
-  // initialControlPageReducer : InitialControlPageState,
-  // loginReducer : LoginState,
-  // referenceDataReducer : ReferenceDataState,
+  initialScreenReducer : initialScreenState,
 }
 
 const store = createStore(rootReducer, applyMiddleware(thunkMiddleware, logger));
@@ -40,8 +43,7 @@ class App extends React.Component {
   render(){
     return(
       <Provider store={store}>
-        {/*<MainNavigator />*/}
-        <FutureView />
+        <MainNavigator />
       </Provider>
     )
   }
