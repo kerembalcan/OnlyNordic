@@ -33,6 +33,9 @@ const photos = [
     title: "Flash End-of-Life",
     summary:
       "Adobe announced its roadmap to stop supporting Flash at the end of 2020. ",
+    // must be valid hex color or android will crashes
+    titleColor: "#f90000",
+    summaryColor: "green"
   },
   {
     source: {
@@ -81,7 +84,7 @@ export default class App extends Component<{}> {
 
   render() {
     let photoView = <RNNYTPhotoViewer
-      visible={this.state.visible}
+      visible={false}
       data={photos}
       hideStatusBar={true}
       initial={this.state.initial}

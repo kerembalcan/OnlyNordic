@@ -87,4 +87,4 @@ RNNYTPhotoViewerComponent.defaultProps = {
   visible: false
 };
 var RNNYTPhotoViewer = requireNativeComponent("RNNYTPhotoViewer", RNNYTPhotoViewerComponent);
-export default RNNYTPhotoViewer;
+export default RNNYTPhotoViewerComponent;

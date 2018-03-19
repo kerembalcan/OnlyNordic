@@ -98,18 +98,18 @@
     
     RNNYTPhotoData* d = [[RNNYTPhotoData alloc] initWithDictionary:dic];
     
-    RNNYTPhoto* merryPhoto = [RNNYTPhoto new];
+    RNNYTPhoto* rnnytPhoto = [RNNYTPhoto new];
     
-    merryPhoto.image = nil;
+    rnnytPhoto.image = nil;
     
     if (d.title) {
-      merryPhoto.attributedCaptionTitle = [RNNYTPhotoViewer attributedTitleFromString:d.title:d.titleColor ? [RCTConvert UIColor:d.titleColor] : [UIColor whiteColor]];
+      rnnytPhoto.attributedCaptionTitle = [RNNYTPhotoViewer attributedTitleFromString:d.title:d.titleColor ? [RCTConvert UIColor:d.titleColor] : [UIColor whiteColor]];
     }
     if (d.summary) {
-      merryPhoto.attributedCaptionSummary = [RNNYTPhotoViewer attributedSummaryFromString:d.summary:d.summaryColor ? [RCTConvert UIColor:d.summaryColor] : [UIColor lightGrayColor]];
+      rnnytPhoto.attributedCaptionSummary = [RNNYTPhotoViewer attributedSummaryFromString:d.summary:d.summaryColor ? [RCTConvert UIColor:d.summaryColor] : [UIColor lightGrayColor]];
     }
     
-    [msPhotos addObject:merryPhoto];
+    [msPhotos addObject:rnnytPhoto];
     
     [rsPhotos addObject:d];
   }
@@ -211,12 +211,6 @@
           (unsigned long)totalPhotoCount.integerValue];
 }
 
-/**
- Download current photo if its nil
- @param photosViewController <#photosViewController description#>
- @param photo <#photo description#>
- @param photoIndex <#photoIndex description#>
- */
 - (void)photosViewController:(NYTPhotosViewController*)photosViewController
           didNavigateToPhoto:(id<NYTPhoto>)photo
                      atIndex:(NSUInteger)photoIndex
@@ -224,14 +218,7 @@
   if (!photo.image || !photo.imageData) {
     [self updatePhotoAtIndex:photosViewController Index:photoIndex];
   }
-  // NOTE: onChange are useless so we don't plan to implementing it.
-  //    MerryPhotoData* current = [self.reactPhotos objectAtIndex:photoIndex];
-  //
-  //    if (self.onNavigateToPhoto) {
-  //        self.onNavigateToPhoto(@{
-  //            @"currentPhoto" : current
-  //        });
-  //    }
+
 }
 
 - (void)displayActivityViewController:(UIActivityViewController*)controller animated:(BOOL)animated
