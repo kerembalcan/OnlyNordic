@@ -4,7 +4,7 @@
  * @flow
  */
 
-import React, { Component } from 'react';
+import React from 'react';
 import {
   Platform,
   StyleSheet,
@@ -71,7 +71,7 @@ const photos = [
   }
 ];
 
-export default class App extends Component<{}> {
+export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
