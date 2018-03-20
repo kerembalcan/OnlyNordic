@@ -5,47 +5,38 @@ import InitialScreenComponent from './components';
 import type {State} from "./reducer"
 import type {Navigation} from "../utils/react-navigation-util";
 import type {GlobalState} from "../../App";
+import {createLoadImagesThunk} from "./actions";
 
 export function stateToLocalState(state : GlobalState) : State {
   return state.initialScreenReducer;
 }
 
 export type StateProps = {
-//   employers: ?Array<Employer>,
-//   selectedEmployer: ?Employer,
-//   requestingEmployers: boolean,
-//   shouldTryAgain: boolean,
+  photos : Array<Object>,
+  page: number,
+  isRequestingPhotos: boolean
 }
 
 function mapStateToProps(state) : StateProps {
   const localState = stateToLocalState(state);
   return {
-    // employers: localState.employers,
-    // selectedEmployer: localState.selectedEmployer,
-    // requestingEmployers: localState.requestingEmployers,
-    // shouldTryAgain: localState.shouldTryAgain,
+    photos : localState.photos,
+    page: localState.page,
+    isRequestingPhotos: localState.isRequestingPhotos
   }
 }
 
 type DispatchProps = {
-  // loadEmployers: () => void,
-  // selectEmployer: (employer : Employer) => void,
-  // handleLogOut: () => void,
-  // handleTimeout: () => void
+  loadImages: () => void,
 }
 
 function mapDispatchToProps(dispatch) : DispatchProps{
   return {
-    // loadEmployers: () => dispatch(createLoadEmployersThunk()),
-    // selectEmployer: (employer : Employer) => dispatch(createSelectEmployerThunk(employer)),
-    // handleLogOut: () => {
-    //   dispatch(createLogOutAction());
-    // },
-    // handleTimeout: () => {dispatch(getGetEmployersTimeoutError())}
+    loadImages: () => dispatch(createLoadImagesThunk()),
   }
 }
 
-type SelectEmployerNavigation = {
+type InitialScreenNavigation = {
   navigate: (path: string) => void,
 }
 

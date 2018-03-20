@@ -4,7 +4,7 @@ import {KeyboardAvoidingView, View} from 'react-native';
 import {isIOS} from "../utils/react-native-util";
 
 type StackContainerProps = {
-  style?: ?Object | Array<?Object>,
+  style?: ?Object | Array<?Object> | ?number,
   children?: any,
   backgroundColor?: string
 }

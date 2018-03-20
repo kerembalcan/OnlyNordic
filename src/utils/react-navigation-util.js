@@ -1,6 +1,6 @@
 /* @flow */
 
-// import type {dispatchFun} from "./reduxFlowTypes";
+ import type {dispatchFun} from "./reduxFlowTypes";
 import {NavigationActions} from 'react-navigation';
 
 export type Navigation = {
@@ -56,7 +56,3 @@ export function resetNavigationWithSpecificKeyAction(navigation : Navigation, ro
   });
   return navigation.dispatch(resetAction);
 }
-
-// export function getCompanyNameFromNavigationState(navigation: Navigation | ActiveJobsheetsNavigation) : string {
-//   return navigation.state && navigation.state.params && typeof navigation.state.params.companyName === "string"  ?  navigation.state.params.companyName : "Invalid"
-// }
