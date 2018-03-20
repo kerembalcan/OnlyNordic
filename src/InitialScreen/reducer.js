@@ -1,9 +1,10 @@
 /* @flow */
 
 import {GET_IMAGES_ERROR, GET_IMAGES_REQUEST, GET_IMAGES_RESPONSE} from "./actionTypes";
+import type {PhotoType} from "../types";
 
 export type State = {
-  photos : Array<Object>,
+  photos : Array<PhotoType>,
   page: number,
   isRequestingPhotos: boolean
 }

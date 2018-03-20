@@ -1,10 +1,10 @@
 /* @flow */
 
 import type {dispatchFun, getStateFun} from "../utils/reduxFlowTypes";
-import {stateToLocalState} from "./containers";
 import {getSearchRoute} from "../apiRoutes";
 import {GET_IMAGES_ERROR, GET_IMAGES_REQUEST, GET_IMAGES_RESPONSE} from "./actionTypes";
 import {callGetAuth} from "../utils/apiCall";
+import type {PhotosObjectType, PhotoType, ResponseType} from "../types";
 
 function createLoadImagesResponseAction(photos : Array<PhotoType>, page: number) {
   return {
@@ -13,23 +13,9 @@ function createLoadImagesResponseAction(photos : Array<PhotoType>, page: number)
     page
   }
 }
-
-type PhotoType = {
-  id: string,
-  owner: string,
-  title: string
-}
-type PhotosObjectType = {
-  page: number,
-  photo: Array<PhotoType>
-}
-type ResponseType = {
-  photos: Array<PhotosObjectType>
-}
-
 function getLoadImagesResponseHandlerFunction() {
   return (response : ResponseType, dispatch) => {
-    const photos = response.photos;
+    const photos : PhotosObjectType = response.photos;
     if(photos && photos.photo) {
       dispatch(createLoadImagesResponseAction(photos.photo, photos.page));
     }

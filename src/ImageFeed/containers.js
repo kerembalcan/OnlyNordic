@@ -1,43 +1,41 @@
 /* @flow */
 
 import {connect} from 'react-redux';
-import InitialScreenComponent from './components';
+import ImageFeedComponent from './components';
 import type {State} from "./reducer"
 import type {Navigation} from "../utils/react-navigation-util";
 import type {GlobalState} from "../../App";
-import {createLoadImagesThunk} from "./actions";
 import type {PhotoType} from "../types";
+import {stateToLocalState as initialScreenStateGetter} from "../InitialScreen/containers"
 
 export function stateToLocalState(state : GlobalState) : State {
-  return state.initialScreenReducer;
+  return state.imageFeedReducer;
 }
 
 export type StateProps = {
   photos : Array<PhotoType>,
-  page: number,
-  isRequestingPhotos: boolean
+  page: number
 }
 
 function mapStateToProps(state) : StateProps {
   const localState = stateToLocalState(state);
+  const initialScreenState = initialScreenStateGetter(state);
   return {
-    photos : localState.photos,
-    page: localState.page,
-    isRequestingPhotos: localState.isRequestingPhotos
+    photos: initialScreenState.photos,
+    page: initialScreenState.page
   }
 }
 
 type DispatchProps = {
-  loadImages: () => void,
 }
 
 function mapDispatchToProps(dispatch) : DispatchProps{
   return {
-    loadImages: () => dispatch(createLoadImagesThunk()),
+
   }
 }
 
-type InitialScreenNavigation = {
+type ImageFeedNavigation = {
   navigate: (path: string) => void,
 }
 
@@ -47,5 +45,5 @@ type ExternalProps =  {
 
 export type CompleteProps = StateProps & DispatchProps & ExternalProps;
 
-const ConnectedInitialScreenComponent = connect(mapStateToProps, mapDispatchToProps)(InitialScreenComponent);
-export default ConnectedInitialScreenComponent;
+const ConnectedImageFeedComponent = connect(mapStateToProps, mapDispatchToProps)(ImageFeedComponent);
+export default ConnectedImageFeedComponent;

@@ -6,6 +6,7 @@ import {StyleSheet, Text, TouchableOpacity} from 'react-native';
 import type {CompleteProps} from "./containers";
 import {StackContainer} from "../PureComponents/stackContainer";
 import {Spinner} from "../PureComponents/spinner";
+import {INFO_SIDE, PROFILE} from "../routes";
 
 
 
@@ -18,11 +19,11 @@ export default class InitialScreenComponent extends React.Component {
 
   render() {
   const {container} = styles;
-  const {isRequestingPhotos, page, photos} = this.props;
+  const {isRequestingPhotos, page, photos, navigation} = this.props;
     return (
       <StackContainer style={container}>
         {isRequestingPhotos && <Spinner/>}
-        <TouchableOpacity onPress={() => console.warn("Logged in")}><Text>Login</Text></TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate(INFO_SIDE)}><Text>Login</Text></TouchableOpacity>
       </StackContainer>
     );
   }
