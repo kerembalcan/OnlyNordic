@@ -3,6 +3,7 @@ import React from 'react';
 import {Text, TouchableOpacity, View} from "react-native";
 import {isIOS} from "../utils/react-native-util";
 import {ONLY_NORDIC_PURPLE, ONLY_NORDIC_SHADOW, ONLY_NORDIC_WHITE} from "../colors";
+import {BOLD_FONT} from "../fonts";
 
 type CustomNavHeaderProps = {
   onRequestClose: () => void,
@@ -60,7 +61,7 @@ const styles = {
   text: {
     flex: 1,
     textAlign: "center",
-    // fontFamily: OVERPASS_EXTRA_BOLD,
+    fontFamily: BOLD_FONT,
     fontSize: 17,
     color: ONLY_NORDIC_WHITE,
   },

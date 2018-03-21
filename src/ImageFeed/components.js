@@ -10,6 +10,7 @@ import {CustomNavHeader} from "../PureComponents/customNavHeader";
 import {getPhotoUrl} from "../utils/imageUtil";
 import {DEVICE_WIDTH} from "../utils/react-native-util";
 import {ONLY_NORDIC_WHITE} from "../colors";
+import {BOLD_FONT, REGULAR_FONT} from "../fonts";
 
 /** const l = <FlatList
   data={activeJobsheets}
@@ -109,8 +110,9 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center'
   },
-
   title: {
     color: ONLY_NORDIC_WHITE,
+    fontFamily: BOLD_FONT,
+    fontSize: 17
   }
 });

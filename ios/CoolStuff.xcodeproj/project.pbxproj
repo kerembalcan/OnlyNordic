@@ -50,8 +50,10 @@
 		60F5DE9D205EA93400831CB4 /* RNNYTPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5DE9C205EA93400831CB4 /* RNNYTPhoto.m */; };
 		60F5DEA0205EA9AB00831CB4 /* RNNYTPhotoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F5DE9F205EA9AB00831CB4 /* RNNYTPhotoData.m */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		934E836768C843DCBF01C6FB /* Bariol-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64987693E1E5453B8F7142E8 /* Bariol-Bold.ttf */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		CD9CEC6247F0C7A539CF894E /* libPods-CoolStuffTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89146063BC2D945E8E6653B3 /* libPods-CoolStuffTests.a */; };
+		E0B6DFA9C5594DF294913200 /* Bariol-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7EF52824BA64460BC744A88 /* Bariol-Regular.ttf */; };
 		E5906C368D280885B00D80A1 /* libPods-CoolStuff-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBEA55B836AD68E7EAD4D223 /* libPods-CoolStuff-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -132,20 +134,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = ADD01A681E09402E00F6D226;
 			remoteInfo = "RCTBlob-tvOS";
-		};
-		2D16E6831FA4F8DC00B85C8A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3DBE0D001F3B181A0099AA32;
-			remoteInfo = fishhook;
-		};
-		2D16E6851FA4F8DC00B85C8A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3DBE0D0D1F3B181C0099AA32;
-			remoteInfo = "fishhook-tvOS";
 		};
 		3DAD3E831DF850E9000B6D8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -252,20 +240,6 @@
 			remoteGlobalIDString = 2D2A28201D9B03D100D4039D;
 			remoteInfo = "RCTAnimation-tvOS";
 		};
-		607A5EDE202783740018FE00 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EBF21BDC1FC498900052F4D5;
-			remoteInfo = jsinspector;
-		};
-		607A5EE0202783740018FE00 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = EBF21BFA1FC4989A0052F4D5;
-			remoteInfo = "jsinspector-tvOS";
-		};
 		607A5EE2202783740018FE00 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
@@ -293,20 +267,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
 			remoteInfo = "double-conversion-tvOS";
-		};
-		607A5EEA202783740018FE00 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9936F3131F5F2E4B0010BF04;
-			remoteInfo = privatedata;
-		};
-		607A5EEC202783740018FE00 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9936F32F1F5F2E5B0010BF04;
-			remoteInfo = "privatedata-tvOS";
 		};
 		78C398B81ACF4ADC00677621 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -383,6 +343,7 @@
 		60F5DE9C205EA93400831CB4 /* RNNYTPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNNYTPhoto.m; sourceTree = "<group>"; };
 		60F5DE9E205EA9AB00831CB4 /* RNNYTPhotoData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNNYTPhotoData.h; sourceTree = "<group>"; };
 		60F5DE9F205EA9AB00831CB4 /* RNNYTPhotoData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNNYTPhotoData.m; sourceTree = "<group>"; };
+		64987693E1E5453B8F7142E8 /* Bariol-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Bariol-Bold.ttf"; path = "../src/assets/fonts/Bariol-Bold.ttf"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		8827EAF7CDA2B6BAF6C5CD4C /* Pods-CoolStuff-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolStuff-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CoolStuff-tvOSTests/Pods-CoolStuff-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -393,6 +354,7 @@
 		D631D511F7A48C439F8DD37A /* libPods-CoolStuff.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoolStuff.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBEA55B836AD68E7EAD4D223 /* libPods-CoolStuff-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoolStuff-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37F1D8CBF629435F9F955FA /* Pods-CoolStuff.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoolStuff.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CoolStuff/Pods-CoolStuff.debug.xcconfig"; sourceTree = "<group>"; };
+		F7EF52824BA64460BC744A88 /* Bariol-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Bariol-Regular.ttf"; path = "../src/assets/fonts/Bariol-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -529,8 +491,6 @@
 			children = (
 				139FDEF41B06529B00C62182 /* libRCTWebSocket.a */,
 				3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */,
-				2D16E6841FA4F8DC00B85C8A /* libfishhook.a */,
-				2D16E6861FA4F8DC00B85C8A /* libfishhook-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -562,14 +522,10 @@
 				3DAD3EAB1DF850E9000B6D8A /* libcxxreact.a */,
 				3DAD3EAD1DF850E9000B6D8A /* libjschelpers.a */,
 				3DAD3EAF1DF850E9000B6D8A /* libjschelpers.a */,
-				607A5EDF202783740018FE00 /* libjsinspector.a */,
-				607A5EE1202783740018FE00 /* libjsinspector-tvOS.a */,
 				607A5EE3202783740018FE00 /* libthird-party.a */,
 				607A5EE5202783740018FE00 /* libthird-party.a */,
 				607A5EE7202783740018FE00 /* libdouble-conversion.a */,
 				607A5EE9202783740018FE00 /* libdouble-conversion.a */,
-				607A5EEB202783740018FE00 /* libprivatedata.a */,
-				607A5EED202783740018FE00 /* libprivatedata-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -678,6 +634,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				C15D2508F318A34D0A132ED6 /* Pods */,
+				8B27DFA4A9804097879D4F20 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -693,6 +650,15 @@
 				2D02E4901E0B4A5D006451C7 /* CoolStuff-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8B27DFA4A9804097879D4F20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64987693E1E5453B8F7142E8 /* Bariol-Bold.ttf */,
+				F7EF52824BA64460BC744A88 /* Bariol-Regular.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		ADBDB9201DFEBF0600ED6528 /* Products */ = {
@@ -812,7 +778,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 610;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -965,20 +931,6 @@
 			remoteRef = 2D16E6711FA4F8DC00B85C8A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2D16E6841FA4F8DC00B85C8A /* libfishhook.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libfishhook.a;
-			remoteRef = 2D16E6831FA4F8DC00B85C8A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		2D16E6861FA4F8DC00B85C8A /* libfishhook-tvOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libfishhook-tvOS.a";
-			remoteRef = 2D16E6851FA4F8DC00B85C8A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1084,20 +1036,6 @@
 			remoteRef = 5E9157341DD0AC6500FF2AA8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		607A5EDF202783740018FE00 /* libjsinspector.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libjsinspector.a;
-			remoteRef = 607A5EDE202783740018FE00 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		607A5EE1202783740018FE00 /* libjsinspector-tvOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libjsinspector-tvOS.a";
-			remoteRef = 607A5EE0202783740018FE00 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		607A5EE3202783740018FE00 /* libthird-party.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1124,20 +1062,6 @@
 			fileType = archive.ar;
 			path = "libdouble-conversion.a";
 			remoteRef = 607A5EE8202783740018FE00 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		607A5EEB202783740018FE00 /* libprivatedata.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libprivatedata.a;
-			remoteRef = 607A5EEA202783740018FE00 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		607A5EED202783740018FE00 /* libprivatedata-tvOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libprivatedata-tvOS.a";
-			remoteRef = 607A5EEC202783740018FE00 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		78C398B91ACF4ADC00677621 /* libRCTLinking.a */ = {
@@ -1177,6 +1101,8 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				934E836768C843DCBF01C6FB /* Bariol-Bold.ttf in Resources */,
+				E0B6DFA9C5594DF294913200 /* Bariol-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
