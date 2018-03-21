@@ -25,6 +25,6 @@ function getLoadImagesResponseHandlerFunction() {
 
 export function createLoadImagesThunk() {
   return function (dispatch : dispatchFun, getState : getStateFun) {
-    dispatch(callGetAuth(() => getSearchRoute("nordic"), GET_IMAGES_REQUEST, GET_IMAGES_ERROR, getLoadImagesResponseHandlerFunction()));
+    dispatch(callGetAuth(() => getSearchRoute("copenhagen"), GET_IMAGES_REQUEST, GET_IMAGES_ERROR, getLoadImagesResponseHandlerFunction()));
   }
 }

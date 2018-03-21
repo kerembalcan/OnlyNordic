@@ -1,4 +1,3 @@
-/* @flow */
 import React from 'react';
 import { requireNativeComponent, processColor, Platform, View } from "react-native";
 import * as PropTypes from "prop-types";
@@ -9,10 +8,6 @@ const ImageSourcePropType = require("react-native/Libraries/Image/ImageSourcePro
 class RNNYTPhotoViewerComponent extends React.Component {
   constructor() {
     super(...arguments);
-    /**
-     * Handle UIColor conversions
-     * @param data Photo[]
-     */
     this.processor = (data) => {
       if (data && data.length) {
         return data.map(o => {
@@ -32,7 +27,6 @@ class RNNYTPhotoViewerComponent extends React.Component {
     };
   }
   render() {
-    // nothing
     if (this.props.visible === false) {
       return null;
     }

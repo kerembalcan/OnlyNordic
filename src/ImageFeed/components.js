@@ -78,7 +78,7 @@ export default class ImageFeedComponent extends React.Component {
       <StackContainer style={container}>
         <FlatList
           data={photos}
-          keyExtractor={(listItem, index) => index}
+          keyExtractor={(listItem, index) => index.toString()}
           renderItem={(listItem, index) => <FlatImage photo={listItem.item}/>}
         />
       </StackContainer>

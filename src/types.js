@@ -13,5 +13,5 @@ export type PhotosObjectType = {
   photo: Array<PhotoType>
 }
 export type ResponseType = {
-  photos: Array<PhotosObjectType>
+  photos: PhotosObjectType
 }

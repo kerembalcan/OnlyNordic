@@ -12,6 +12,9 @@ import type {State as initialScreenState} from "./src/InitialScreen/reducer";
 import imageFeedReducer from './src/ImageFeed/reducer';
 import type {State as imageFeedState} from "./src/ImageFeed/reducer";
 
+import imageGalleryReducer from './src/ImageGallery/reducer';
+import type {State as imageGalleryState} from "./src/ImageGallery/reducer";
+
 import FutureView from "./src/futureView";
 
 const logger = createLogger({
@@ -26,7 +29,8 @@ function mainReducer(state={}, action) {
 const appReducer = combineReducers({
   mainReducer,
   initialScreenReducer,
-  imageFeedReducer
+  imageFeedReducer,
+  imageGalleryReducer
 });
 
 const rootReducer = ( state, action ) => {
@@ -36,7 +40,8 @@ const rootReducer = ( state, action ) => {
 
 export type GlobalState = {
   initialScreenReducer : initialScreenState,
-  imageFeedReducer : imageFeedState
+  imageFeedReducer : imageFeedState,
+  imageGalleryReducer: imageGalleryState
 }
 
 const store = createStore(rootReducer, applyMiddleware(thunkMiddleware, logger));
